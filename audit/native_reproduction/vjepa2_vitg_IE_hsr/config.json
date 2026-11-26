@@ -1,0 +1,16 @@
+{
+  "task": "IE",
+  "model": "V-JEPA 2 (ViT-G)",
+  "model_id": "vjepa2_vitg",
+  "config_id": "vjepa2_vitg_output_only_e0.99609375_a1.0222222_c06df496a3bf",
+  "mode": "output_only",
+  "parameters": {
+    "eta": 0.99609375,
+    "alpha": 1.02222222,
+    "q": null,
+    "presence": null,
+    "mass": null,
+    "min_history": null
+  },
+  "diagnostic_only": false
+}

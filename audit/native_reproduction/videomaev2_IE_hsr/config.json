@@ -1,0 +1,17 @@
+{
+  "task": "IE",
+  "model": "VideoMAE-V2",
+  "model_id": "videomaev2",
+  "config_id": "S_videomaev2_pre_final_block_block_1_e0.9375_a3.2742206_a89f222d579d",
+  "mode": "pre_final_block",
+  "parameters": {
+    "eta": 0.9375,
+    "alpha": 3.27422062,
+    "q": null,
+    "presence": null,
+    "mass": null,
+    "min_history": null,
+    "position": "block_1"
+  },
+  "diagnostic_only": false
+}

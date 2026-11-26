@@ -1,0 +1,17 @@
+{
+  "task": "SP",
+  "model": "VideoMAE-V2",
+  "model_id": "videomaev2",
+  "config_id": "S_videomaev2_pre_final_block_block_0_e0.25_a2.3407317_9bd4da81baef",
+  "mode": "pre_final_block",
+  "parameters": {
+    "eta": 0.25,
+    "alpha": 2.34073174,
+    "q": null,
+    "presence": null,
+    "mass": null,
+    "min_history": null,
+    "position": "block_0"
+  },
+  "diagnostic_only": false
+}

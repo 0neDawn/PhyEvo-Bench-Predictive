@@ -1,0 +1,28 @@
+Model,Variant,PairAcc (%),VSA (%),AUC (%),Loc. MAE (frames),SP (%)
+VideoMAE-V2,Baseline,46.33,52.67,41.53,0.489,36.33
+VideoMAE-V2,HSR,47.67,53.67,43.50,0.476,37.67
+VideoMAE-V2,After − before,+1.34,+1.00,+1.97,-0.013,+1.34
+OCVPSeq,Baseline,59.33,67.67,64.80,0.101,57.00
+OCVPSeq,HSR,61.67,67.67,67.00,0.114,58.67
+OCVPSeq,After − before,+2.34,+0.00,+2.20,+0.013,+1.67
+SAVi,Baseline,60.00,68.33,66.40,0.106,58.33
+SAVi,HSR,61.00,68.33,67.48,0.082,59.67
+SAVi,After − before,+1.00,+0.00,+1.08,-0.024,+1.34
+DINO-Foresight (diagnostic),Baseline,76.67,81.00,88.96,0.004,76.33
+DINO-Foresight (diagnostic),HSR,76.67,81.33,89.41,0.000,76.67
+DINO-Foresight (diagnostic),After − before,+0.00,+0.33,+0.45,-0.004,+0.34
+V-JEPA 2 (ViT-G),Baseline,97.00,97.00,99.79,0.034,95.33
+V-JEPA 2 (ViT-G),HSR,97.33,97.00,99.79,0.034,95.67
+V-JEPA 2 (ViT-G),After − before,+0.33,+0.00,+0.00,+0.000,+0.34
+V-JEPA 2 (ViT-L),Baseline,95.67,96.33,99.40,0.021,94.67
+V-JEPA 2 (ViT-L),HSR,96.00,96.33,99.51,0.028,94.67
+V-JEPA 2 (ViT-L),After − before,+0.33,+0.00,+0.11,+0.007,+0.00
+DDLP,Baseline,61.00,59.67,64.73,0.137,57.33
+DDLP,HSR,62.00,59.33,64.79,0.162,58.00
+DDLP,After − before,+1.00,-0.34,+0.06,+0.025,+0.67
+SlotFormer,Baseline,72.33,82.00,81.41,0.111,70.33
+SlotFormer,HSR,75.33,83.33,82.92,0.084,73.33
+SlotFormer,After − before,+3.00,+1.33,+1.51,-0.027,+3.00
+G-SWM,Baseline,60.00,60.33,64.59,0.106,57.33
+G-SWM,HSR,60.67,60.67,64.68,0.122,58.00
+G-SWM,After − before,+0.67,+0.34,+0.09,+0.016,+0.67

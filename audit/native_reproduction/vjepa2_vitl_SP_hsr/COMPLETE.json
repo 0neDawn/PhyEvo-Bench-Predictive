@@ -1,0 +1,12 @@
+{
+  "cases": 300,
+  "metrics_match_archive": true,
+  "variant": "hsr",
+  "model": "vjepa2_vitl",
+  "task": "SP",
+  "diagnostic_only": false,
+  "neural_budget_unchanged": true,
+  "possible_max_abs": 0.0,
+  "impossible_max_abs": 0.0,
+  "all_metrics_exact": true
+}

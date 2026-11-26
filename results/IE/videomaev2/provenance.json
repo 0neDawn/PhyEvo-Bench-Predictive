@@ -1,0 +1,43 @@
+{
+  "task": "ie",
+  "model": "videomaev2",
+  "config_id": "S_videomaev2_pre_final_block_block_1_e0.9375_a3.2742206_a89f222d579d",
+  "job": {
+    "model": "videomaev2",
+    "mode": "pre_final_block",
+    "eta": 0.9375,
+    "alpha": 3.27422062,
+    "quality": null,
+    "target_task": null,
+    "position": "block_1",
+    "config_id": "S_videomaev2_pre_final_block_block_1_e0.9375_a3.2742206_a89f222d579d",
+    "proposal": "dyadic eta/radius refinement around combined parent/new global primary or AUC anchor",
+    "anchor": "S_videomaev2_pre_final_block_block_1_e1_a3.3475826_7f1b392bbe0b"
+  },
+  "parameters": {
+    "eta": 0.9375,
+    "alpha": 3.27422062,
+    "q": null,
+    "presence": null,
+    "mass": null,
+    "min_history": null,
+    "position": "block_1"
+  },
+  "native_run": "$REPO/predictive_tracks/ppr_position_refine_20261106_s/runs/videomaev2/S_videomaev2_pre_final_block_block_1_e0.9375_a3.2742206_a89f222d579d",
+  "cases": 300,
+  "full_native_cases": 600,
+  "insertion": "forward pre-hook before decoder.block_1",
+  "block_index_is_zero_based": true,
+  "representation": "512-channel spatial mean across 256 tokens at each two-frame block",
+  "history_frames": 8,
+  "history_blocks": 4,
+  "future_frames": 6,
+  "future_blocks": 3,
+  "correction": "One correction of the three future block means; same offset broadcast to all 256 tokens.",
+  "target_branch_corrected": false,
+  "historical_tokens_modified": false,
+  "added_forwards_per_forecast": 0,
+  "baseline": "Matched original uncorrected outputs from the same native adapter and dataset.",
+  "selection": "Post-hoc same-data selection targeting 1--2 pp in PairAcc and the new joint metric; not a maximum-performance claim.",
+  "actual_operator": "beta=eta*max(0,1-alpha*R/||y-c||_2); c=mean(history); R=max||history-c||_2; d=0 => beta=0."
+}

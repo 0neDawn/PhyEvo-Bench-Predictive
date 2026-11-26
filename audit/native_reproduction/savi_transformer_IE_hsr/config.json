@@ -1,0 +1,16 @@
+{
+  "task": "IE",
+  "model": "SAVi",
+  "model_id": "savi_transformer",
+  "config_id": "R_savi_transformer_state_only_e0.25_a2.5_e3fa1f33e057",
+  "mode": "state_only",
+  "parameters": {
+    "eta": 0.25,
+    "alpha": 2.5,
+    "q": null,
+    "presence": null,
+    "mass": null,
+    "min_history": null
+  },
+  "diagnostic_only": false
+}

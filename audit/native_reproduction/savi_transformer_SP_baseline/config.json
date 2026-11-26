@@ -1,0 +1,16 @@
+{
+  "task": "SP",
+  "model": "SAVi",
+  "model_id": "savi_transformer",
+  "config_id": "S_savi_transformer_output_only_native_e0.9954427_a1.225_4c9f5d3620fd",
+  "mode": "output_only",
+  "parameters": {
+    "eta": 0.9954427,
+    "alpha": 1.225,
+    "q": null,
+    "presence": null,
+    "mass": null,
+    "min_history": null
+  },
+  "diagnostic_only": false
+}

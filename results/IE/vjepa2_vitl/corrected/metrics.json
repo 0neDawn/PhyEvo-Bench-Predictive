@@ -1,0 +1,64 @@
+{
+  "overall": {
+    "num_pairs": 300,
+    "pairacc": 0.48,
+    "auc": 0.5530888888888889,
+    "localization_mae": 0.125,
+    "localization_mae_denominator": 144,
+    "detection_coverage": 0.62,
+    "vsa": 0.57,
+    "joint_accuracy": 0.45,
+    "pairacc_count": 144,
+    "vsa_count": 171,
+    "joint_count": 135,
+    "pair_ties": 0,
+    "vsa_ties": 0
+  },
+  "by_type": {
+    "contact_response": {
+      "num_pairs": 100,
+      "pairacc": 0.23,
+      "auc": 0.0977,
+      "localization_mae": 0.782608695652174,
+      "localization_mae_denominator": 23,
+      "detection_coverage": 0.36,
+      "vsa": 0.24,
+      "joint_accuracy": 0.14,
+      "pairacc_count": 23,
+      "vsa_count": 24,
+      "joint_count": 14,
+      "pair_ties": 0,
+      "vsa_ties": 0
+    },
+    "motion_anomaly": {
+      "num_pairs": 100,
+      "pairacc": 1.0,
+      "auc": 1.0,
+      "localization_mae": 0.0,
+      "localization_mae_denominator": 100,
+      "detection_coverage": 1.0,
+      "vsa": 1.0,
+      "joint_accuracy": 1.0,
+      "pairacc_count": 100,
+      "vsa_count": 100,
+      "joint_count": 100,
+      "pair_ties": 0,
+      "vsa_ties": 0
+    },
+    "penetration": {
+      "num_pairs": 100,
+      "pairacc": 0.21,
+      "auc": 0.1489,
+      "localization_mae": 0.0,
+      "localization_mae_denominator": 21,
+      "detection_coverage": 0.5,
+      "vsa": 0.47,
+      "joint_accuracy": 0.21,
+      "pairacc_count": 21,
+      "vsa_count": 47,
+      "joint_count": 21,
+      "pair_ties": 0,
+      "vsa_ties": 0
+    }
+  }
+}

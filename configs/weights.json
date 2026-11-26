@@ -1,0 +1,80 @@
+[
+  {
+    "id": "weight_00",
+    "path": "ddlp/checkpoints/diffuse-ddlp-obj3d128/obj3d128_ddlp.pth",
+    "bytes": 36344037,
+    "sha256": "4f5b416c44d6288e03656e899a00ae0370cfab8f0aa7d16a8cb794057066283d"
+  },
+  {
+    "id": "weight_01",
+    "path": "third_party/DINO-Foresight/pretrained/dinof_highres.ckpt",
+    "bytes": 3454036949,
+    "sha256": "4f90652bd2992186a4672a278f8d7cfd2710c38d453abfed3887604b8a4536c2"
+  },
+  {
+    "id": "weight_02",
+    "path": "third_party/dinov2/pretrained/dinov2_vitb14_reg4_pretrain.pth",
+    "bytes": 346393545,
+    "sha256": "73182a088cf94833c94b1666d1c99e02fe87e2007bff57b564fb6206e25dba71"
+  },
+  {
+    "id": "weight_03",
+    "path": "third_party/DINO-Foresight/pretrained/dinov2_pca_448_l[2_5_8_11]_1152.pth",
+    "bytes": 21376240,
+    "sha256": "16e897a6f09223192d26684418a157acbe08c9a74c56569707d63b7f15766f2e"
+  },
+  {
+    "id": "weight_04",
+    "path": "third_party/G-SWM/pretrained/obj3d.pth",
+    "bytes": 106239080,
+    "sha256": "83a14770985c11dd4c857eeaaf8981eac504b3b654fdec4cde06372b998ff716"
+  },
+  {
+    "id": "weight_05",
+    "path": "third_party/OCVP/pretrained/obj3d/Obj3D/Predictor_OCVPSeq/models/OCVPSeq_obj3d.pth",
+    "bytes": 13213609,
+    "sha256": "4052ae79fd2808e99720d7da0622594b39598af1e8670f0476dbb4cb8572e5b9"
+  },
+  {
+    "id": "weight_06",
+    "path": "third_party/OCVP/pretrained/obj3d/Obj3D/models/savi_obj3d.pth",
+    "bytes": 10849357,
+    "sha256": "985a39306cc1843f779a5b261f9fd74f44a7ae20e7dea49454f96f374d0bb321"
+  },
+  {
+    "id": "weight_07",
+    "path": "third_party/OCVP/pretrained/obj3d/Obj3D/Predictor_Transformer/models/transformer_obj3d.pth",
+    "bytes": 6804745,
+    "sha256": "729e8dcd313b159f24fecfe7907f34e46f352dcb1b65ccba8fd30aa1f45e80d7"
+  },
+  {
+    "id": "weight_08",
+    "path": "third_party/SlotFormer/pretrained/savi_obj3d_params/model_40.pth",
+    "bytes": 24166539,
+    "sha256": "c1e791add3c8db5cddc86f9a861cc852966a11d3b2e72d5c1605622f36b9f52b"
+  },
+  {
+    "id": "weight_09",
+    "path": "third_party/SlotFormer/pretrained/slotformer_obj3d_params/model_200.pth",
+    "bytes": 12026605,
+    "sha256": "52be93dd71a1faae7d310983d88aea971c3899221fb59d32e2d5ced0e1b77f3a"
+  },
+  {
+    "id": "weight_10",
+    "path": "VideoMAEv2/checkpoints/vit_g_hybrid_pt_1200e.pth",
+    "bytes": 4105433973,
+    "sha256": "5773c881d303426f2f0e906df9842c4ca95fba6a5901849a3e8d9d1ed8f79b5f"
+  },
+  {
+    "id": "weight_11",
+    "path": "third_party/vjepa2/vjepa2-vitg-fpc64-256/original/model.pth",
+    "bytes": 16464208210,
+    "sha256": "67129f011434e605d894e69f2c8e13d9db118deabe59d54bf6e0fa62c2c5cb8e"
+  },
+  {
+    "id": "weight_12",
+    "path": "predictive_tracks/sp/checkpoints/vjepa2-vitl-fpc64-256/original/model.pth",
+    "bytes": 5127726842,
+    "sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012"
+  }
+]

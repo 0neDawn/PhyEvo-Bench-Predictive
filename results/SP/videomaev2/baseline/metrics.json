@@ -1,0 +1,64 @@
+{
+  "overall": {
+    "num_pairs": 300,
+    "pairacc": 0.4633333333333333,
+    "auc": 0.4152777777777778,
+    "localization_mae": 0.4892086330935252,
+    "localization_mae_denominator": 139,
+    "detection_coverage": 0.71,
+    "vsa": 0.5266666666666666,
+    "joint_accuracy": 0.36333333333333334,
+    "pairacc_count": 139,
+    "vsa_count": 158,
+    "joint_count": 109,
+    "pair_ties": 0,
+    "vsa_ties": 0
+  },
+  "by_type": {
+    "identity_change": {
+      "num_pairs": 100,
+      "pairacc": 0.75,
+      "auc": 0.8521,
+      "localization_mae": 0.48,
+      "localization_mae_denominator": 75,
+      "detection_coverage": 0.94,
+      "vsa": 0.67,
+      "joint_accuracy": 0.59,
+      "pairacc_count": 75,
+      "vsa_count": 67,
+      "joint_count": 59,
+      "pair_ties": 0,
+      "vsa_ties": 0
+    },
+    "occluded_wrong_reappearance": {
+      "num_pairs": 100,
+      "pairacc": 0.28,
+      "auc": 0.1276,
+      "localization_mae": 0.7142857142857143,
+      "localization_mae_denominator": 28,
+      "detection_coverage": 0.36,
+      "vsa": 0.23,
+      "joint_accuracy": 0.2,
+      "pairacc_count": 28,
+      "vsa_count": 23,
+      "joint_count": 20,
+      "pair_ties": 0,
+      "vsa_ties": 0
+    },
+    "sudden_disappearance": {
+      "num_pairs": 100,
+      "pairacc": 0.36,
+      "auc": 0.3252,
+      "localization_mae": 0.3333333333333333,
+      "localization_mae_denominator": 36,
+      "detection_coverage": 0.83,
+      "vsa": 0.68,
+      "joint_accuracy": 0.3,
+      "pairacc_count": 36,
+      "vsa_count": 68,
+      "joint_count": 30,
+      "pair_ties": 0,
+      "vsa_ties": 0
+    }
+  }
+}

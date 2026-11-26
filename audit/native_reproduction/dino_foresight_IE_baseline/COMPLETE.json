@@ -1,0 +1,12 @@
+{
+  "cases": 300,
+  "metrics_match_archive": true,
+  "variant": "baseline",
+  "model": "dino_foresight",
+  "task": "IE",
+  "diagnostic_only": true,
+  "neural_budget_unchanged": true,
+  "possible_max_abs": 4.172325134277344e-07,
+  "impossible_max_abs": 4.172325134277344e-07,
+  "all_metrics_exact": true
+}

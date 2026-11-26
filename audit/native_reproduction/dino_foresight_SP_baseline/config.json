@@ -1,0 +1,16 @@
+{
+  "task": "SP",
+  "model": "DINO-Foresight",
+  "model_id": "dino_foresight",
+  "config_id": "dino_foresight_output_only_e1_a1.25_096b26279fcd",
+  "mode": "output_only",
+  "parameters": {
+    "eta": 1.0,
+    "alpha": 1.25,
+    "q": null,
+    "presence": null,
+    "mass": null,
+    "min_history": null
+  },
+  "diagnostic_only": true
+}

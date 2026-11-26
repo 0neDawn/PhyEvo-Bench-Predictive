@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "operator": "a=(1-beta)*y+beta*c; beta=eta*max(0,1-alpha*R/d); d=||y-c||_2; beta=0 if d=0 or historical reference is invalid",
+  "reference": "c=mean(selected history); R=max Euclidean deviation from c",
+  "history_filter": "DDLP/G-SWM: presence>=p, visible mass>=mass, visible mass>=q*max historical mass; at least min_history observations",
+  "block_indexing": "zero based; correction is applied before the named block",
+  "selection": "SP and IE selected separately on the same 300 pairs per task used for evaluation; no independent held-out selection set",
+  "selection_exceptions": {
+    "videomaev2": "Selected post hoc for 1--2 pp gains in PairAcc and joint pass rate",
+    "slotformer_IE": "Previously selected configuration retained"
+  },
+  "configurations": [
+    {
+      "task": "SP",
+      "model": "VideoMAE-V2",
+      "model_id": "videomaev2",
+      "config_id": "S_videomaev2_pre_final_block_block_0_e0.25_a2.3407317_9bd4da81baef",
+      "mode": "pre_final_block",
+      "parameters": {
+        "eta": 0.25,
+        "alpha": 2.34073174,
+        "q": null,
+        "presence": null,
+        "mass": null,
+        "min_history": null,
+        "position": "block_0"
+      },
+      "diagnostic_only": false
+    },
+    {
+      "task": "SP",
+      "model": "OCVPSeq",
+      "model_id": "ocvp_seq",
+      "config_id": "ocvp_seq_output_only_a1250000_e1000000",
+      "mode": "output_only",
+      "parameters": {
+        "eta": 1.0,
+        "alpha": 1.25,
+        "q": null,
+        "presence": null,
+        "mass": null,
+        "min_history": null
+      },
+      "diagnostic_only": false
+    },
+    {
+      "task": "SP",
+      "model": "SAVi",
+      "model_id": "savi_transformer",
+      "config_id": "S_savi_transformer_output_only_native_e0.9954427_a1.225_4c9f5d3620fd",
+      "mode": "output_only",
+      "parameters": {
+        "eta": 0.9954427,
+        "alpha": 1.225,
+        "q": null,
+        "presence": null,
+        "mass": null,
+        "min_history": null
+      },
+      "diagnostic_only": false
+    },
+    {
+      "task": "SP",
+      "model": "DINO-Foresight",
+      "model_id": "dino_foresight",
+      "config_id": "dino_foresight_output_only_e1_a1.25_096b26279fcd",
+      "mode": "output_only",
+      "parameters": {
+        "eta": 1.0,
+        "alpha": 1.25,
+        "q": null,
+        "presence": null,
+        "mass": null,
+        "min_history": null
+      },
+      "diagnostic_only": true
+    },
+    {
+      "task": "SP",
+      "model": "V-JEPA 2 (ViT-G)",
+      "model_id": "vjepa2_vitg",
+      "config_id": "vjepa2_vitg_output_only_e0.47395833_a1.4875_053686b533cd",
+      "mode": "output_only",
+      "parameters": {
+        "eta": 0.47395833,
+        "alpha": 1.4875,
+        "q": null,
+        "presence": null,
+        "mass": null,
+        "min_history": null
+      },
+      "diagnostic_only": false
+    },
+    {
+      "task": "SP",
+      "model": "V-JEPA 2 (ViT-L)",
+      "model_id": "vjepa2_vitl",
+      "config_id": "S_vjepa2_vitl_pre_final_block_block_9_e0.2125_a5.4041311_ff08dcf9091b",
+      "mode": "pre_final_block",
+      "parameters": {
+        "eta": 0.2125,
+        "alpha": 5.4041311,
+        "q": null,
+        "presence": null,
+        "mass": null,
+        "min_history": null,
+        "position": "block_9"
+      },
+      "diagnostic_only": false
+    },
+    {
+      "task": "SP",
+      "model": "DDLP",
+      "model_id": "ddlp",
+      "config_id": "e050_q025_p075_v4_n2",
+      "mode": "feedback",
+      "parameters": {
+        "eta": 0.5,
+        "q": 0.25,
+        "presence": 0.75,
+        "mass": 4.0,
+        "min_history": 2,
+        "alpha": 1.0
+      },
+      "diagnostic_only": false
+    },
+    {
+      "task": "SP",
+      "model": "SlotFormer",
+      "model_id": "slotformer",
+      "config_id": "slotformer_output_only_e0.9975_a1.06_c4eb5cfb6e68",
+      "mode": "output_only",
+      "parameters": {
+        "eta": 0.9975,
+        "alpha": 1.06,
+        "q": null,
+        "presence": null,
+        "mass": null,
+        "min_history": null
+      },
+      "diagnostic_only": false
+    },
+    {
+      "task": "SP",
+      "model": "G-SWM",
+      "model_id": "gswm",
+      "config_id": "gswm_feedback_e1_a2_4ac78e6f8c37",
+      "mode": "feedback",
+      "parameters": {
+        "eta": 1.0,
+        "alpha": 2.0,
+        "q": 0.75,
+        "presence": 0.5,
+        "mass": 4.0,
+        "min_history": 3
+      },
+      "diagnostic_only": false
+    },
+    {
+      "task": "IE",
+      "model": "VideoMAE-V2",
+      "model_id": "videomaev2",
+      "config_id": "S_videomaev2_pre_final_block_block_1_e0.9375_a3.2742206_a89f222d579d",
+      "mode": "pre_final_block",
+      "parameters": {
+        "eta": 0.9375,
+        "alpha": 3.27422062,
+        "q": null,
+        "presence": null,
+        "mass": null,
+        "min_history": null,
+        "position": "block_1"
+      },
+      "diagnostic_only": false
+    },
+    {
+      "task": "IE",
+      "model": "OCVPSeq",
+      "model_id": "ocvp_seq",
+      "config_id": "AC_ocvp_seq_state_only_e0.4765625_a1.984375_9a8d7d5a5530",
+      "mode": "state_only",
+      "parameters": {
+        "eta": 0.4765625,
+        "alpha": 1.984375,
+        "q": null,
+        "presence": null,
+        "mass": null,
+        "min_history": null
+      },
+      "diagnostic_only": false
+    },
+    {
+      "task": "IE",
+      "model": "SAVi",
+      "model_id": "savi_transformer",
+      "config_id": "R_savi_transformer_state_only_e0.25_a2.5_e3fa1f33e057",
+      "mode": "state_only",
+      "parameters": {
+        "eta": 0.25,
+        "alpha": 2.5,
+        "q": null,
+        "presence": null,
+        "mass": null,
+        "min_history": null
+      },
+      "diagnostic_only": false
+    },
+    {
+      "task": "IE",
+      "model": "DINO-Foresight",
+      "model_id": "dino_foresight",
+      "config_id": "dino_foresight_output_only_e0.015625_a1.0111111_d5e99a32fb50",
+      "mode": "output_only",
+      "parameters": {
+        "eta": 0.015625,
+        "alpha": 1.01111111,
+        "q": null,
+        "presence": null,
+        "mass": null,
+        "min_history": null
+      },
+      "diagnostic_only": true
+    },
+    {
+      "task": "IE",
+      "model": "V-JEPA 2 (ViT-G)",
+      "model_id": "vjepa2_vitg",
+      "config_id": "vjepa2_vitg_output_only_e0.99609375_a1.0222222_c06df496a3bf",
+      "mode": "output_only",
+      "parameters": {
+        "eta": 0.99609375,
+        "alpha": 1.02222222,
+        "q": null,
+        "presence": null,
+        "mass": null,
+        "min_history": null
+      },
+      "diagnostic_only": false
+    },
+    {
+      "task": "IE",
+      "model": "V-JEPA 2 (ViT-L)",
+      "model_id": "vjepa2_vitl",
+      "config_id": "S_vjepa2_vitl_pre_final_block_block_6_e0.09375_a1.0971748_35e2082b60f5",
+      "mode": "pre_final_block",
+      "parameters": {
+        "eta": 0.09375,
+        "alpha": 1.09717484,
+        "q": null,
+        "presence": null,
+        "mass": null,
+        "min_history": null,
+        "position": "block_6"
+      },
+      "diagnostic_only": false
+    },
+    {
+      "task": "IE",
+      "model": "DDLP",
+      "model_id": "ddlp",
+      "config_id": "e100_q050_p050_v4_n3",
+      "mode": "feedback",
+      "parameters": {
+        "eta": 1.0,
+        "q": 0.5,
+        "presence": 0.5,
+        "mass": 4.0,
+        "min_history": 3,
+        "alpha": 1.0
+      },
+      "diagnostic_only": false
+    },
+    {
+      "task": "IE",
+      "model": "SlotFormer",
+      "model_id": "slotformer",
+      "config_id": "slotformer_output_only_e0.74088542_a1.2375_75232b6d4579",
+      "mode": "output_only",
+      "parameters": {
+        "eta": 0.74088542,
+        "alpha": 1.2375,
+        "q": null,
+        "presence": null,
+        "mass": null,
+        "min_history": null
+      },
+      "diagnostic_only": false
+    },
+    {
+      "task": "IE",
+      "model": "G-SWM",
+      "model_id": "gswm",
+      "config_id": "e100_q050_p050_v4_n2",
+      "mode": "feedback",
+      "parameters": {
+        "eta": 1.0,
+        "q": 0.5,
+        "presence": 0.5,
+        "mass": 4.0,
+        "min_history": 2,
+        "alpha": 1.0
+      },
+      "diagnostic_only": false
+    }
+  ]
+}

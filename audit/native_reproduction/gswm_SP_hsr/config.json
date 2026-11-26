@@ -1,0 +1,16 @@
+{
+  "task": "SP",
+  "model": "G-SWM",
+  "model_id": "gswm",
+  "config_id": "gswm_feedback_e1_a2_4ac78e6f8c37",
+  "mode": "feedback",
+  "parameters": {
+    "eta": 1.0,
+    "alpha": 2.0,
+    "q": 0.75,
+    "presence": 0.5,
+    "mass": 4.0,
+    "min_history": 3
+  },
+  "diagnostic_only": false
+}

@@ -1,0 +1,10 @@
+{
+  "configurations": 18,
+  "evaluated_outputs": 36,
+  "reported_values_verified": 180,
+  "archived_differences_verified": 72,
+  "identical_test_pairs": true,
+  "metrics_match_archives": true,
+  "additional_model_forwards": 0,
+  "delta_rule": "Round baseline and HSR as displayed, then subtract baseline from HSR."
+}

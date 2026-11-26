@@ -1,0 +1,16 @@
+{
+  "task": "IE",
+  "model": "SlotFormer",
+  "model_id": "slotformer",
+  "config_id": "slotformer_output_only_e0.74088542_a1.2375_75232b6d4579",
+  "mode": "output_only",
+  "parameters": {
+    "eta": 0.74088542,
+    "alpha": 1.2375,
+    "q": null,
+    "presence": null,
+    "mass": null,
+    "min_history": null
+  },
+  "diagnostic_only": false
+}

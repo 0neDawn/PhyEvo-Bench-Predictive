@@ -1,0 +1,291 @@
+{
+  "model": "ocvp_seq",
+  "config_id": "AC_ocvp_seq_state_only_e0.4765625_a1.984375_9a8d7d5a5530",
+  "parameters": {
+    "eta": 0.4765625,
+    "alpha": 1.984375,
+    "q": null,
+    "presence": null,
+    "mass": null,
+    "min_history": null
+  },
+  "mode": "state_only",
+  "origin": "AC_existing_eta_radius_and_original_loop",
+  "position": null,
+  "eligible_for_selection": true,
+  "eligible_tasks": [
+    "sp",
+    "ie"
+  ],
+  "full600_native_validated": true,
+  "source_row_index": 607,
+  "group": "g0477_ocvp_seq",
+  "group_index": 19,
+  "task": "ie",
+  "source_report": "$REPO/predictive_tracks/ppr_buffer_read_20261107_ae/delivery_20261107_001/report.json",
+  "source_report_sha256": "2546e8f27b0a77a46d9760ac5c720bc32949a588cc18de8f4d3e29268e5237e4",
+  "source_row": {
+    "model": "ocvp_seq",
+    "mode": "state_only",
+    "eta": 0.4765625,
+    "alpha": 1.984375,
+    "quality": null,
+    "target_task": null,
+    "config_id": "AC_ocvp_seq_state_only_e0.4765625_a1.984375_9a8d7d5a5530",
+    "anchor": "AC_ocvp_seq_state_only_e0.484375_a2_65b1b868ffc2",
+    "proposal": "One additional global-endpoint neighbour midpoint round; same existing eta/radius only",
+    "parameters": {
+      "eta": 0.4765625,
+      "alpha": 1.984375,
+      "q": null,
+      "presence": null,
+      "mass": null,
+      "min_history": null
+    },
+    "metrics": {
+      "sp": {
+        "native_baseline": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.5933333333333334,
+            "tie_rate": 0.0,
+            "auc": 0.648,
+            "detection_coverage": 0.67,
+            "localized_and_correct_fraction": 0.5933333333333334,
+            "localization_mae": 0.10112359550561797,
+            "localization_mae_denominator": 178,
+            "joint_hit": {
+              "1": 0.5766666666666667
+            }
+          },
+          "by_type": {
+            "identity_change": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.71,
+              "tie_rate": 0.0,
+              "auc": 0.7479,
+              "detection_coverage": 0.75,
+              "localized_and_correct_fraction": 0.71,
+              "localization_mae": 0.07042253521126761,
+              "localization_mae_denominator": 71,
+              "joint_hit": {
+                "1": 0.69
+              }
+            },
+            "occluded_wrong_reappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.37,
+              "tie_rate": 0.0,
+              "auc": 0.3271,
+              "detection_coverage": 0.45,
+              "localized_and_correct_fraction": 0.37,
+              "localization_mae": 0.35135135135135137,
+              "localization_mae_denominator": 37,
+              "joint_hit": {
+                "1": 0.34
+              }
+            },
+            "sudden_disappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.7,
+              "tie_rate": 0.0,
+              "auc": 0.8016,
+              "detection_coverage": 0.81,
+              "localized_and_correct_fraction": 0.7,
+              "localization_mae": 0.0,
+              "localization_mae_denominator": 70,
+              "joint_hit": {
+                "1": 0.7
+              }
+            }
+          }
+        },
+        "corrected": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.5933333333333334,
+            "tie_rate": 0.0,
+            "auc": 0.6509333333333334,
+            "detection_coverage": 0.67,
+            "localized_and_correct_fraction": 0.5933333333333334,
+            "localization_mae": 0.10112359550561797,
+            "localization_mae_denominator": 178,
+            "joint_hit": {
+              "1": 0.5766666666666667
+            }
+          },
+          "by_type": {
+            "identity_change": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.71,
+              "tie_rate": 0.0,
+              "auc": 0.7521,
+              "detection_coverage": 0.75,
+              "localized_and_correct_fraction": 0.71,
+              "localization_mae": 0.07042253521126761,
+              "localization_mae_denominator": 71,
+              "joint_hit": {
+                "1": 0.69
+              }
+            },
+            "occluded_wrong_reappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.37,
+              "tie_rate": 0.0,
+              "auc": 0.3271,
+              "detection_coverage": 0.45,
+              "localized_and_correct_fraction": 0.37,
+              "localization_mae": 0.35135135135135137,
+              "localization_mae_denominator": 37,
+              "joint_hit": {
+                "1": 0.34
+              }
+            },
+            "sudden_disappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.7,
+              "tie_rate": 0.0,
+              "auc": 0.8048,
+              "detection_coverage": 0.81,
+              "localized_and_correct_fraction": 0.7,
+              "localization_mae": 0.0,
+              "localization_mae_denominator": 70,
+              "joint_hit": {
+                "1": 0.7
+              }
+            }
+          }
+        }
+      },
+      "ie": {
+        "native_baseline": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.37666666666666665,
+            "tie_rate": 0.0,
+            "auc": 0.3567444444444444,
+            "detection_coverage": 0.5266666666666666,
+            "localized_and_correct_fraction": 0.37333333333333335,
+            "localization_mae": 0.5089285714285714,
+            "localization_mae_denominator": 112,
+            "joint_hit": {
+              "1": 0.3233333333333333
+            }
+          },
+          "by_type": {
+            "motion_anomaly": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.52,
+              "tie_rate": 0.0,
+              "auc": 0.524,
+              "detection_coverage": 0.65,
+              "localized_and_correct_fraction": 0.52,
+              "localization_mae": 0.4423076923076923,
+              "localization_mae_denominator": 52,
+              "joint_hit": {
+                "1": 0.45
+              }
+            },
+            "penetration": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.44,
+              "tie_rate": 0.0,
+              "auc": 0.4492,
+              "detection_coverage": 0.64,
+              "localized_and_correct_fraction": 0.44,
+              "localization_mae": 0.36363636363636365,
+              "localization_mae_denominator": 44,
+              "joint_hit": {
+                "1": 0.42
+              }
+            },
+            "contact_response": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.17,
+              "tie_rate": 0.0,
+              "auc": 0.1371,
+              "detection_coverage": 0.29,
+              "localized_and_correct_fraction": 0.16,
+              "localization_mae": 1.125,
+              "localization_mae_denominator": 16,
+              "joint_hit": {
+                "1": 0.1
+              }
+            }
+          }
+        },
+        "corrected": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.38,
+            "tie_rate": 0.0,
+            "auc": 0.3564,
+            "detection_coverage": 0.5266666666666666,
+            "localized_and_correct_fraction": 0.37666666666666665,
+            "localization_mae": 0.504424778761062,
+            "localization_mae_denominator": 113,
+            "joint_hit": {
+              "1": 0.32666666666666666
+            }
+          },
+          "by_type": {
+            "motion_anomaly": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.52,
+              "tie_rate": 0.0,
+              "auc": 0.524,
+              "detection_coverage": 0.65,
+              "localized_and_correct_fraction": 0.52,
+              "localization_mae": 0.4423076923076923,
+              "localization_mae_denominator": 52,
+              "joint_hit": {
+                "1": 0.45
+              }
+            },
+            "penetration": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.45,
+              "tie_rate": 0.0,
+              "auc": 0.4485,
+              "detection_coverage": 0.64,
+              "localized_and_correct_fraction": 0.45,
+              "localization_mae": 0.35555555555555557,
+              "localization_mae_denominator": 45,
+              "joint_hit": {
+                "1": 0.43
+              }
+            },
+            "contact_response": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.17,
+              "tie_rate": 0.0,
+              "auc": 0.1365,
+              "detection_coverage": 0.29,
+              "localized_and_correct_fraction": 0.16,
+              "localization_mae": 1.125,
+              "localization_mae_denominator": 16,
+              "joint_hit": {
+                "1": 0.1
+              }
+            }
+          }
+        }
+      }
+    },
+    "complete": true,
+    "completed_pairs": 600,
+    "directory": "$REPO/predictive_tracks/ppr_ie_followup_20261107_ac/runs/ocvp_seq/AC_ocvp_seq_state_only_e0.4765625_a1.984375_9a8d7d5a5530",
+    "source_directory": "$REPO/predictive_tracks/ppr_ie_followup_20261107_ac/search_settings/ocvp_seq/AC_ocvp_seq_state_only_e0.4765625_a1.984375_9a8d7d5a5530",
+    "compact_case_source": "$REPO/predictive_tracks/ppr_ie_followup_20261107_ac/search/fine/ocvp_seq/pairs",
+    "full600_native_validated": true,
+    "partial_graph_parameter_search": true,
+    "eligible_for_selection": true,
+    "eligible_tasks": [
+      "sp",
+      "ie"
+    ],
+    "origin": "AC_existing_eta_radius_and_original_loop",
+    "diagnostic_only": false
+  },
+  "selection_policy": "Replace old JointHit with new Joint accuracy; retain tie-breaks PairAcc, AUC, lower original conditional MAE, native on exact tie, then configuration ID"
+}

@@ -1,0 +1,2464 @@
+{
+  "timestamp_utc": "2026-11-26T08:48:32.383088+00:00",
+  "status": "complete",
+  "total_runs": 36,
+  "verified_runs": 36,
+  "incomplete_runs": 0,
+  "mismatched_runs": 0,
+  "displayed_values_verified": 180,
+  "displayed_differences_verified": 90,
+  "all_verified_errors_exact": false,
+  "additional_model_forwards": 0,
+  "runs": [
+    {
+      "model": "videomaev2",
+      "task": "SP",
+      "variant": "baseline",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/videomaev2_SP_baseline",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "46.33",
+          "table": "46.33",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "52.67",
+          "table": "52.67",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "41.53",
+          "table": "41.53",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.489",
+          "table": "0.489",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "36.33",
+          "table": "36.33",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 139
+    },
+    {
+      "model": "videomaev2",
+      "task": "SP",
+      "variant": "hsr",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/videomaev2_SP_hsr",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "47.67",
+          "table": "47.67",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "53.67",
+          "table": "53.67",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "43.50",
+          "table": "43.50",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.476",
+          "table": "0.476",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "37.67",
+          "table": "37.67",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 143
+    },
+    {
+      "model": "ocvp_seq",
+      "task": "SP",
+      "variant": "baseline",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/ocvp_seq_SP_baseline",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "59.33",
+          "table": "59.33",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "67.67",
+          "table": "67.67",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "64.80",
+          "table": "64.80",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.101",
+          "table": "0.101",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "57.00",
+          "table": "57.00",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 178
+    },
+    {
+      "model": "ocvp_seq",
+      "task": "SP",
+      "variant": "hsr",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/ocvp_seq_SP_hsr",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "61.67",
+          "table": "61.67",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "67.67",
+          "table": "67.67",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "67.00",
+          "table": "67.00",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.114",
+          "table": "0.114",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "58.67",
+          "table": "58.67",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 185
+    },
+    {
+      "model": "savi_transformer",
+      "task": "SP",
+      "variant": "baseline",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/savi_transformer_SP_baseline",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "60.00",
+          "table": "60.00",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "68.33",
+          "table": "68.33",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "66.40",
+          "table": "66.40",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.106",
+          "table": "0.106",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "58.33",
+          "table": "58.33",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 180
+    },
+    {
+      "model": "savi_transformer",
+      "task": "SP",
+      "variant": "hsr",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/savi_transformer_SP_hsr",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "61.00",
+          "table": "61.00",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "68.33",
+          "table": "68.33",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "67.48",
+          "table": "67.48",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.082",
+          "table": "0.082",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "59.67",
+          "table": "59.67",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 183
+    },
+    {
+      "model": "dino_foresight",
+      "task": "SP",
+      "variant": "baseline",
+      "diagnostic_only": true,
+      "source": "verified_native_results_20261126/dino_foresight_SP_baseline",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "76.67",
+          "table": "76.67",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "81.00",
+          "table": "81.00",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "88.96",
+          "table": "88.96",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.004",
+          "table": "0.004",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "76.33",
+          "table": "76.33",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 4.172325134277344e-07,
+        "impossible_errors": 4.172325134277344e-07
+      },
+      "all_errors_exact": false,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 230
+    },
+    {
+      "model": "dino_foresight",
+      "task": "SP",
+      "variant": "hsr",
+      "diagnostic_only": true,
+      "source": "verified_native_results_20261126/dino_foresight_SP_hsr",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "76.67",
+          "table": "76.67",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "81.33",
+          "table": "81.33",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "89.41",
+          "table": "89.41",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.000",
+          "table": "0.000",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "76.67",
+          "table": "76.67",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 1.1920928955078125e-07,
+        "impossible_errors": 1.1920928955078125e-07
+      },
+      "all_errors_exact": false,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 230
+    },
+    {
+      "model": "vjepa2_vitg",
+      "task": "SP",
+      "variant": "baseline",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/vjepa2_vitg_SP_baseline",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "97.00",
+          "table": "97.00",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "97.00",
+          "table": "97.00",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "99.79",
+          "table": "99.79",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.034",
+          "table": "0.034",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "95.33",
+          "table": "95.33",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 291
+    },
+    {
+      "model": "vjepa2_vitg",
+      "task": "SP",
+      "variant": "hsr",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/vjepa2_vitg_SP_hsr",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "97.33",
+          "table": "97.33",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "97.00",
+          "table": "97.00",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "99.79",
+          "table": "99.79",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.034",
+          "table": "0.034",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "95.67",
+          "table": "95.67",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 292
+    },
+    {
+      "model": "vjepa2_vitl",
+      "task": "SP",
+      "variant": "baseline",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/vjepa2_vitl_SP_baseline",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "95.67",
+          "table": "95.67",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "96.33",
+          "table": "96.33",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "99.40",
+          "table": "99.40",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.021",
+          "table": "0.021",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "94.67",
+          "table": "94.67",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 287
+    },
+    {
+      "model": "vjepa2_vitl",
+      "task": "SP",
+      "variant": "hsr",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/vjepa2_vitl_SP_hsr",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "96.00",
+          "table": "96.00",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "96.33",
+          "table": "96.33",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "99.51",
+          "table": "99.51",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.028",
+          "table": "0.028",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "94.67",
+          "table": "94.67",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 288
+    },
+    {
+      "model": "ddlp",
+      "task": "SP",
+      "variant": "baseline",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/ddlp_SP_baseline",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "61.00",
+          "table": "61.00",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "59.67",
+          "table": "59.67",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "64.73",
+          "table": "64.73",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.137",
+          "table": "0.137",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "57.33",
+          "table": "57.33",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 182
+    },
+    {
+      "model": "ddlp",
+      "task": "SP",
+      "variant": "hsr",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/ddlp_SP_hsr",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "62.00",
+          "table": "62.00",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "59.33",
+          "table": "59.33",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "64.79",
+          "table": "64.79",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.162",
+          "table": "0.162",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "58.00",
+          "table": "58.00",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 185
+    },
+    {
+      "model": "slotformer",
+      "task": "SP",
+      "variant": "baseline",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/slotformer_SP_baseline",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "72.33",
+          "table": "72.33",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "82.00",
+          "table": "82.00",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "81.41",
+          "table": "81.41",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.111",
+          "table": "0.111",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "70.33",
+          "table": "70.33",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 217
+    },
+    {
+      "model": "slotformer",
+      "task": "SP",
+      "variant": "hsr",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/slotformer_SP_hsr",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "75.33",
+          "table": "75.33",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "83.33",
+          "table": "83.33",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "82.92",
+          "table": "82.92",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.084",
+          "table": "0.084",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "73.33",
+          "table": "73.33",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 225
+    },
+    {
+      "model": "gswm",
+      "task": "SP",
+      "variant": "baseline",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/gswm_SP_baseline",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "60.00",
+          "table": "60.00",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "60.33",
+          "table": "60.33",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "64.59",
+          "table": "64.59",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.106",
+          "table": "0.106",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "57.33",
+          "table": "57.33",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 180
+    },
+    {
+      "model": "gswm",
+      "task": "SP",
+      "variant": "hsr",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/gswm_SP_hsr",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "60.67",
+          "table": "60.67",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "60.67",
+          "table": "60.67",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "64.68",
+          "table": "64.68",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.122",
+          "table": "0.122",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "58.00",
+          "table": "58.00",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 181
+    },
+    {
+      "model": "videomaev2",
+      "task": "IE",
+      "variant": "baseline",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/videomaev2_IE_baseline",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "48.33",
+          "table": "48.33",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "60.00",
+          "table": "60.00",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "41.34",
+          "table": "41.34",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.248",
+          "table": "0.248",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "42.33",
+          "table": "42.33",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 145
+    },
+    {
+      "model": "videomaev2",
+      "task": "IE",
+      "variant": "hsr",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/videomaev2_IE_hsr",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "49.33",
+          "table": "49.33",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "59.00",
+          "table": "59.00",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "43.35",
+          "table": "43.35",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.257",
+          "table": "0.257",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "43.33",
+          "table": "43.33",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 148
+    },
+    {
+      "model": "ocvp_seq",
+      "task": "IE",
+      "variant": "baseline",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/ocvp_seq_IE_baseline",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "37.67",
+          "table": "37.67",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "50.00",
+          "table": "50.00",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "35.67",
+          "table": "35.67",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.509",
+          "table": "0.509",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "29.67",
+          "table": "29.67",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 112
+    },
+    {
+      "model": "ocvp_seq",
+      "task": "IE",
+      "variant": "hsr",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/ocvp_seq_IE_hsr",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "38.00",
+          "table": "38.00",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "50.00",
+          "table": "50.00",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "35.64",
+          "table": "35.64",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.504",
+          "table": "0.504",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "30.00",
+          "table": "30.00",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 113
+    },
+    {
+      "model": "savi_transformer",
+      "task": "IE",
+      "variant": "baseline",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/savi_transformer_IE_baseline",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "36.00",
+          "table": "36.00",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "49.67",
+          "table": "49.67",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "35.75",
+          "table": "35.75",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.449",
+          "table": "0.449",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "28.33",
+          "table": "28.33",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 107
+    },
+    {
+      "model": "savi_transformer",
+      "task": "IE",
+      "variant": "hsr",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/savi_transformer_IE_hsr",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "36.00",
+          "table": "36.00",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "49.67",
+          "table": "49.67",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "35.76",
+          "table": "35.76",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.449",
+          "table": "0.449",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "28.33",
+          "table": "28.33",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 107
+    },
+    {
+      "model": "dino_foresight",
+      "task": "IE",
+      "variant": "baseline",
+      "diagnostic_only": true,
+      "source": "verified_native_results_20261126/dino_foresight_IE_baseline",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "34.33",
+          "table": "34.33",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "53.67",
+          "table": "53.67",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "29.62",
+          "table": "29.62",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.525",
+          "table": "0.525",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "23.33",
+          "table": "23.33",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 4.172325134277344e-07,
+        "impossible_errors": 4.172325134277344e-07
+      },
+      "all_errors_exact": false,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 99
+    },
+    {
+      "model": "dino_foresight",
+      "task": "IE",
+      "variant": "hsr",
+      "diagnostic_only": true,
+      "source": "verified_native_results_20261126/dino_foresight_IE_hsr",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "34.33",
+          "table": "34.33",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "53.67",
+          "table": "53.67",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "29.63",
+          "table": "29.63",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.525",
+          "table": "0.525",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "23.33",
+          "table": "23.33",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 1.1920928955078125e-07,
+        "impossible_errors": 1.1920928955078125e-07
+      },
+      "all_errors_exact": false,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 99
+    },
+    {
+      "model": "vjepa2_vitg",
+      "task": "IE",
+      "variant": "baseline",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/vjepa2_vitg_IE_baseline",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "59.67",
+          "table": "59.67",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "69.00",
+          "table": "69.00",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "64.06",
+          "table": "64.06",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.067",
+          "table": "0.067",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "57.67",
+          "table": "57.67",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 179
+    },
+    {
+      "model": "vjepa2_vitg",
+      "task": "IE",
+      "variant": "hsr",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/vjepa2_vitg_IE_hsr",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "60.33",
+          "table": "60.33",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "71.67",
+          "table": "71.67",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "64.07",
+          "table": "64.07",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.044",
+          "table": "0.044",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "59.00",
+          "table": "59.00",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 181
+    },
+    {
+      "model": "vjepa2_vitl",
+      "task": "IE",
+      "variant": "baseline",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/vjepa2_vitl_IE_baseline",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "46.00",
+          "table": "46.00",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "55.67",
+          "table": "55.67",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "55.19",
+          "table": "55.19",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.116",
+          "table": "0.116",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "43.33",
+          "table": "43.33",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 138
+    },
+    {
+      "model": "vjepa2_vitl",
+      "task": "IE",
+      "variant": "hsr",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/vjepa2_vitl_IE_hsr",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "48.00",
+          "table": "48.00",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "57.00",
+          "table": "57.00",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "55.31",
+          "table": "55.31",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.125",
+          "table": "0.125",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "45.00",
+          "table": "45.00",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 144
+    },
+    {
+      "model": "ddlp",
+      "task": "IE",
+      "variant": "baseline",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/ddlp_IE_baseline",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "35.33",
+          "table": "35.33",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "52.67",
+          "table": "52.67",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "30.64",
+          "table": "30.64",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.346",
+          "table": "0.346",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "32.00",
+          "table": "32.00",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 104
+    },
+    {
+      "model": "ddlp",
+      "task": "IE",
+      "variant": "hsr",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/ddlp_IE_hsr",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "37.33",
+          "table": "37.33",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "53.33",
+          "table": "53.33",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "30.93",
+          "table": "30.93",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.373",
+          "table": "0.373",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "33.33",
+          "table": "33.33",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 110
+    },
+    {
+      "model": "slotformer",
+      "task": "IE",
+      "variant": "baseline",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/slotformer_IE_baseline",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "54.33",
+          "table": "54.33",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "59.33",
+          "table": "59.33",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "52.42",
+          "table": "52.42",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.562",
+          "table": "0.562",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "42.00",
+          "table": "42.00",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 162
+    },
+    {
+      "model": "slotformer",
+      "task": "IE",
+      "variant": "hsr",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/slotformer_IE_hsr",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "55.00",
+          "table": "55.00",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "58.67",
+          "table": "58.67",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "49.79",
+          "table": "49.79",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.552",
+          "table": "0.552",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "41.67",
+          "table": "41.67",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 165
+    },
+    {
+      "model": "gswm",
+      "task": "IE",
+      "variant": "baseline",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/gswm_IE_baseline",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "57.33",
+          "table": "57.33",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "54.67",
+          "table": "54.67",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "57.12",
+          "table": "57.12",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.407",
+          "table": "0.407",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "44.67",
+          "table": "44.67",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 167
+    },
+    {
+      "model": "gswm",
+      "task": "IE",
+      "variant": "hsr",
+      "diagnostic_only": false,
+      "source": "verified_native_results_20261126/gswm_IE_hsr",
+      "status": "verified",
+      "cases": 300,
+      "exact_overall_and_type_metrics": true,
+      "decision_flags_exact": true,
+      "displayed_values": {
+        "pairacc": {
+          "recomputed": "58.67",
+          "table": "58.67",
+          "match": true
+        },
+        "vsa": {
+          "recomputed": "55.33",
+          "table": "55.33",
+          "match": true
+        },
+        "auc": {
+          "recomputed": "57.51",
+          "table": "57.51",
+          "match": true
+        },
+        "localization_mae": {
+          "recomputed": "0.410",
+          "table": "0.410",
+          "match": true
+        },
+        "joint_accuracy": {
+          "recomputed": "45.67",
+          "table": "45.67",
+          "match": true
+        }
+      },
+      "maximum_absolute_error_differences": {
+        "possible_errors": 0.0,
+        "impossible_errors": 0.0
+      },
+      "all_errors_exact": true,
+      "test_pairs_and_temporal_grid_match": true,
+      "configuration_matches": true,
+      "case_log_matches_errors": true,
+      "neural_calls_and_input_hashes_match": true,
+      "localization_mae_denominator": 173
+    }
+  ],
+  "differences": [
+    {
+      "model": "videomaev2",
+      "task": "SP",
+      "field": "pairacc",
+      "native_delta": "+1.34",
+      "table_delta": "+1.34",
+      "match": true
+    },
+    {
+      "model": "videomaev2",
+      "task": "SP",
+      "field": "vsa",
+      "native_delta": "+1.00",
+      "table_delta": "+1.00",
+      "match": true
+    },
+    {
+      "model": "videomaev2",
+      "task": "SP",
+      "field": "auc",
+      "native_delta": "+1.97",
+      "table_delta": "+1.97",
+      "match": true
+    },
+    {
+      "model": "videomaev2",
+      "task": "SP",
+      "field": "localization_mae",
+      "native_delta": "-0.013",
+      "table_delta": "-0.013",
+      "match": true
+    },
+    {
+      "model": "videomaev2",
+      "task": "SP",
+      "field": "joint_accuracy",
+      "native_delta": "+1.34",
+      "table_delta": "+1.34",
+      "match": true
+    },
+    {
+      "model": "ocvp_seq",
+      "task": "SP",
+      "field": "pairacc",
+      "native_delta": "+2.34",
+      "table_delta": "+2.34",
+      "match": true
+    },
+    {
+      "model": "ocvp_seq",
+      "task": "SP",
+      "field": "vsa",
+      "native_delta": "+0.00",
+      "table_delta": "+0.00",
+      "match": true
+    },
+    {
+      "model": "ocvp_seq",
+      "task": "SP",
+      "field": "auc",
+      "native_delta": "+2.20",
+      "table_delta": "+2.20",
+      "match": true
+    },
+    {
+      "model": "ocvp_seq",
+      "task": "SP",
+      "field": "localization_mae",
+      "native_delta": "+0.013",
+      "table_delta": "+0.013",
+      "match": true
+    },
+    {
+      "model": "ocvp_seq",
+      "task": "SP",
+      "field": "joint_accuracy",
+      "native_delta": "+1.67",
+      "table_delta": "+1.67",
+      "match": true
+    },
+    {
+      "model": "savi_transformer",
+      "task": "SP",
+      "field": "pairacc",
+      "native_delta": "+1.00",
+      "table_delta": "+1.00",
+      "match": true
+    },
+    {
+      "model": "savi_transformer",
+      "task": "SP",
+      "field": "vsa",
+      "native_delta": "+0.00",
+      "table_delta": "+0.00",
+      "match": true
+    },
+    {
+      "model": "savi_transformer",
+      "task": "SP",
+      "field": "auc",
+      "native_delta": "+1.08",
+      "table_delta": "+1.08",
+      "match": true
+    },
+    {
+      "model": "savi_transformer",
+      "task": "SP",
+      "field": "localization_mae",
+      "native_delta": "-0.024",
+      "table_delta": "-0.024",
+      "match": true
+    },
+    {
+      "model": "savi_transformer",
+      "task": "SP",
+      "field": "joint_accuracy",
+      "native_delta": "+1.34",
+      "table_delta": "+1.34",
+      "match": true
+    },
+    {
+      "model": "dino_foresight",
+      "task": "SP",
+      "field": "pairacc",
+      "native_delta": "+0.00",
+      "table_delta": "+0.00",
+      "match": true
+    },
+    {
+      "model": "dino_foresight",
+      "task": "SP",
+      "field": "vsa",
+      "native_delta": "+0.33",
+      "table_delta": "+0.33",
+      "match": true
+    },
+    {
+      "model": "dino_foresight",
+      "task": "SP",
+      "field": "auc",
+      "native_delta": "+0.45",
+      "table_delta": "+0.45",
+      "match": true
+    },
+    {
+      "model": "dino_foresight",
+      "task": "SP",
+      "field": "localization_mae",
+      "native_delta": "-0.004",
+      "table_delta": "-0.004",
+      "match": true
+    },
+    {
+      "model": "dino_foresight",
+      "task": "SP",
+      "field": "joint_accuracy",
+      "native_delta": "+0.34",
+      "table_delta": "+0.34",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitg",
+      "task": "SP",
+      "field": "pairacc",
+      "native_delta": "+0.33",
+      "table_delta": "+0.33",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitg",
+      "task": "SP",
+      "field": "vsa",
+      "native_delta": "+0.00",
+      "table_delta": "+0.00",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitg",
+      "task": "SP",
+      "field": "auc",
+      "native_delta": "+0.00",
+      "table_delta": "+0.00",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitg",
+      "task": "SP",
+      "field": "localization_mae",
+      "native_delta": "+0.000",
+      "table_delta": "+0.000",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitg",
+      "task": "SP",
+      "field": "joint_accuracy",
+      "native_delta": "+0.34",
+      "table_delta": "+0.34",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitl",
+      "task": "SP",
+      "field": "pairacc",
+      "native_delta": "+0.33",
+      "table_delta": "+0.33",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitl",
+      "task": "SP",
+      "field": "vsa",
+      "native_delta": "+0.00",
+      "table_delta": "+0.00",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitl",
+      "task": "SP",
+      "field": "auc",
+      "native_delta": "+0.11",
+      "table_delta": "+0.11",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitl",
+      "task": "SP",
+      "field": "localization_mae",
+      "native_delta": "+0.007",
+      "table_delta": "+0.007",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitl",
+      "task": "SP",
+      "field": "joint_accuracy",
+      "native_delta": "+0.00",
+      "table_delta": "+0.00",
+      "match": true
+    },
+    {
+      "model": "ddlp",
+      "task": "SP",
+      "field": "pairacc",
+      "native_delta": "+1.00",
+      "table_delta": "+1.00",
+      "match": true
+    },
+    {
+      "model": "ddlp",
+      "task": "SP",
+      "field": "vsa",
+      "native_delta": "-0.34",
+      "table_delta": "-0.34",
+      "match": true
+    },
+    {
+      "model": "ddlp",
+      "task": "SP",
+      "field": "auc",
+      "native_delta": "+0.06",
+      "table_delta": "+0.06",
+      "match": true
+    },
+    {
+      "model": "ddlp",
+      "task": "SP",
+      "field": "localization_mae",
+      "native_delta": "+0.025",
+      "table_delta": "+0.025",
+      "match": true
+    },
+    {
+      "model": "ddlp",
+      "task": "SP",
+      "field": "joint_accuracy",
+      "native_delta": "+0.67",
+      "table_delta": "+0.67",
+      "match": true
+    },
+    {
+      "model": "slotformer",
+      "task": "SP",
+      "field": "pairacc",
+      "native_delta": "+3.00",
+      "table_delta": "+3.00",
+      "match": true
+    },
+    {
+      "model": "slotformer",
+      "task": "SP",
+      "field": "vsa",
+      "native_delta": "+1.33",
+      "table_delta": "+1.33",
+      "match": true
+    },
+    {
+      "model": "slotformer",
+      "task": "SP",
+      "field": "auc",
+      "native_delta": "+1.51",
+      "table_delta": "+1.51",
+      "match": true
+    },
+    {
+      "model": "slotformer",
+      "task": "SP",
+      "field": "localization_mae",
+      "native_delta": "-0.027",
+      "table_delta": "-0.027",
+      "match": true
+    },
+    {
+      "model": "slotformer",
+      "task": "SP",
+      "field": "joint_accuracy",
+      "native_delta": "+3.00",
+      "table_delta": "+3.00",
+      "match": true
+    },
+    {
+      "model": "gswm",
+      "task": "SP",
+      "field": "pairacc",
+      "native_delta": "+0.67",
+      "table_delta": "+0.67",
+      "match": true
+    },
+    {
+      "model": "gswm",
+      "task": "SP",
+      "field": "vsa",
+      "native_delta": "+0.34",
+      "table_delta": "+0.34",
+      "match": true
+    },
+    {
+      "model": "gswm",
+      "task": "SP",
+      "field": "auc",
+      "native_delta": "+0.09",
+      "table_delta": "+0.09",
+      "match": true
+    },
+    {
+      "model": "gswm",
+      "task": "SP",
+      "field": "localization_mae",
+      "native_delta": "+0.016",
+      "table_delta": "+0.016",
+      "match": true
+    },
+    {
+      "model": "gswm",
+      "task": "SP",
+      "field": "joint_accuracy",
+      "native_delta": "+0.67",
+      "table_delta": "+0.67",
+      "match": true
+    },
+    {
+      "model": "videomaev2",
+      "task": "IE",
+      "field": "pairacc",
+      "native_delta": "+1.00",
+      "table_delta": "+1.00",
+      "match": true
+    },
+    {
+      "model": "videomaev2",
+      "task": "IE",
+      "field": "vsa",
+      "native_delta": "-1.00",
+      "table_delta": "-1.00",
+      "match": true
+    },
+    {
+      "model": "videomaev2",
+      "task": "IE",
+      "field": "auc",
+      "native_delta": "+2.01",
+      "table_delta": "+2.01",
+      "match": true
+    },
+    {
+      "model": "videomaev2",
+      "task": "IE",
+      "field": "localization_mae",
+      "native_delta": "+0.009",
+      "table_delta": "+0.009",
+      "match": true
+    },
+    {
+      "model": "videomaev2",
+      "task": "IE",
+      "field": "joint_accuracy",
+      "native_delta": "+1.00",
+      "table_delta": "+1.00",
+      "match": true
+    },
+    {
+      "model": "ocvp_seq",
+      "task": "IE",
+      "field": "pairacc",
+      "native_delta": "+0.33",
+      "table_delta": "+0.33",
+      "match": true
+    },
+    {
+      "model": "ocvp_seq",
+      "task": "IE",
+      "field": "vsa",
+      "native_delta": "+0.00",
+      "table_delta": "+0.00",
+      "match": true
+    },
+    {
+      "model": "ocvp_seq",
+      "task": "IE",
+      "field": "auc",
+      "native_delta": "-0.03",
+      "table_delta": "-0.03",
+      "match": true
+    },
+    {
+      "model": "ocvp_seq",
+      "task": "IE",
+      "field": "localization_mae",
+      "native_delta": "-0.005",
+      "table_delta": "-0.005",
+      "match": true
+    },
+    {
+      "model": "ocvp_seq",
+      "task": "IE",
+      "field": "joint_accuracy",
+      "native_delta": "+0.33",
+      "table_delta": "+0.33",
+      "match": true
+    },
+    {
+      "model": "savi_transformer",
+      "task": "IE",
+      "field": "pairacc",
+      "native_delta": "+0.00",
+      "table_delta": "+0.00",
+      "match": true
+    },
+    {
+      "model": "savi_transformer",
+      "task": "IE",
+      "field": "vsa",
+      "native_delta": "+0.00",
+      "table_delta": "+0.00",
+      "match": true
+    },
+    {
+      "model": "savi_transformer",
+      "task": "IE",
+      "field": "auc",
+      "native_delta": "+0.01",
+      "table_delta": "+0.01",
+      "match": true
+    },
+    {
+      "model": "savi_transformer",
+      "task": "IE",
+      "field": "localization_mae",
+      "native_delta": "+0.000",
+      "table_delta": "+0.000",
+      "match": true
+    },
+    {
+      "model": "savi_transformer",
+      "task": "IE",
+      "field": "joint_accuracy",
+      "native_delta": "+0.00",
+      "table_delta": "+0.00",
+      "match": true
+    },
+    {
+      "model": "dino_foresight",
+      "task": "IE",
+      "field": "pairacc",
+      "native_delta": "+0.00",
+      "table_delta": "+0.00",
+      "match": true
+    },
+    {
+      "model": "dino_foresight",
+      "task": "IE",
+      "field": "vsa",
+      "native_delta": "+0.00",
+      "table_delta": "+0.00",
+      "match": true
+    },
+    {
+      "model": "dino_foresight",
+      "task": "IE",
+      "field": "auc",
+      "native_delta": "+0.01",
+      "table_delta": "+0.01",
+      "match": true
+    },
+    {
+      "model": "dino_foresight",
+      "task": "IE",
+      "field": "localization_mae",
+      "native_delta": "+0.000",
+      "table_delta": "+0.000",
+      "match": true
+    },
+    {
+      "model": "dino_foresight",
+      "task": "IE",
+      "field": "joint_accuracy",
+      "native_delta": "+0.00",
+      "table_delta": "+0.00",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitg",
+      "task": "IE",
+      "field": "pairacc",
+      "native_delta": "+0.66",
+      "table_delta": "+0.66",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitg",
+      "task": "IE",
+      "field": "vsa",
+      "native_delta": "+2.67",
+      "table_delta": "+2.67",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitg",
+      "task": "IE",
+      "field": "auc",
+      "native_delta": "+0.01",
+      "table_delta": "+0.01",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitg",
+      "task": "IE",
+      "field": "localization_mae",
+      "native_delta": "-0.023",
+      "table_delta": "-0.023",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitg",
+      "task": "IE",
+      "field": "joint_accuracy",
+      "native_delta": "+1.33",
+      "table_delta": "+1.33",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitl",
+      "task": "IE",
+      "field": "pairacc",
+      "native_delta": "+2.00",
+      "table_delta": "+2.00",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitl",
+      "task": "IE",
+      "field": "vsa",
+      "native_delta": "+1.33",
+      "table_delta": "+1.33",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitl",
+      "task": "IE",
+      "field": "auc",
+      "native_delta": "+0.12",
+      "table_delta": "+0.12",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitl",
+      "task": "IE",
+      "field": "localization_mae",
+      "native_delta": "+0.009",
+      "table_delta": "+0.009",
+      "match": true
+    },
+    {
+      "model": "vjepa2_vitl",
+      "task": "IE",
+      "field": "joint_accuracy",
+      "native_delta": "+1.67",
+      "table_delta": "+1.67",
+      "match": true
+    },
+    {
+      "model": "ddlp",
+      "task": "IE",
+      "field": "pairacc",
+      "native_delta": "+2.00",
+      "table_delta": "+2.00",
+      "match": true
+    },
+    {
+      "model": "ddlp",
+      "task": "IE",
+      "field": "vsa",
+      "native_delta": "+0.66",
+      "table_delta": "+0.66",
+      "match": true
+    },
+    {
+      "model": "ddlp",
+      "task": "IE",
+      "field": "auc",
+      "native_delta": "+0.29",
+      "table_delta": "+0.29",
+      "match": true
+    },
+    {
+      "model": "ddlp",
+      "task": "IE",
+      "field": "localization_mae",
+      "native_delta": "+0.027",
+      "table_delta": "+0.027",
+      "match": true
+    },
+    {
+      "model": "ddlp",
+      "task": "IE",
+      "field": "joint_accuracy",
+      "native_delta": "+1.33",
+      "table_delta": "+1.33",
+      "match": true
+    },
+    {
+      "model": "slotformer",
+      "task": "IE",
+      "field": "pairacc",
+      "native_delta": "+0.67",
+      "table_delta": "+0.67",
+      "match": true
+    },
+    {
+      "model": "slotformer",
+      "task": "IE",
+      "field": "vsa",
+      "native_delta": "-0.66",
+      "table_delta": "-0.66",
+      "match": true
+    },
+    {
+      "model": "slotformer",
+      "task": "IE",
+      "field": "auc",
+      "native_delta": "-2.63",
+      "table_delta": "-2.63",
+      "match": true
+    },
+    {
+      "model": "slotformer",
+      "task": "IE",
+      "field": "localization_mae",
+      "native_delta": "-0.010",
+      "table_delta": "-0.010",
+      "match": true
+    },
+    {
+      "model": "slotformer",
+      "task": "IE",
+      "field": "joint_accuracy",
+      "native_delta": "-0.33",
+      "table_delta": "-0.33",
+      "match": true
+    },
+    {
+      "model": "gswm",
+      "task": "IE",
+      "field": "pairacc",
+      "native_delta": "+1.34",
+      "table_delta": "+1.34",
+      "match": true
+    },
+    {
+      "model": "gswm",
+      "task": "IE",
+      "field": "vsa",
+      "native_delta": "+0.66",
+      "table_delta": "+0.66",
+      "match": true
+    },
+    {
+      "model": "gswm",
+      "task": "IE",
+      "field": "auc",
+      "native_delta": "+0.39",
+      "table_delta": "+0.39",
+      "match": true
+    },
+    {
+      "model": "gswm",
+      "task": "IE",
+      "field": "localization_mae",
+      "native_delta": "+0.003",
+      "table_delta": "+0.003",
+      "match": true
+    },
+    {
+      "model": "gswm",
+      "task": "IE",
+      "field": "joint_accuracy",
+      "native_delta": "+1.00",
+      "table_delta": "+1.00",
+      "match": true
+    }
+  ]
+}

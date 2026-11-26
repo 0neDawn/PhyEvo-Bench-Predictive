@@ -1,0 +1,16 @@
+{
+  "task": "SP",
+  "model": "SlotFormer",
+  "model_id": "slotformer",
+  "config_id": "slotformer_output_only_e0.9975_a1.06_c4eb5cfb6e68",
+  "mode": "output_only",
+  "parameters": {
+    "eta": 0.9975,
+    "alpha": 1.06,
+    "q": null,
+    "presence": null,
+    "mass": null,
+    "min_history": null
+  },
+  "diagnostic_only": false
+}

@@ -1,0 +1,692 @@
+{
+  "status": "complete",
+  "completed": 36,
+  "total": 36,
+  "timestamp_utc": "2026-11-26T08:48:31.997903+00:00",
+  "runs": [
+    {
+      "model": "videomaev2",
+      "task": "SP",
+      "variant": "baseline",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/videomaev2_SP_baseline",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "baseline",
+        "model": "videomaev2",
+        "task": "SP",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "videomaev2",
+      "task": "SP",
+      "variant": "hsr",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/videomaev2_SP_hsr",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "hsr",
+        "model": "videomaev2",
+        "task": "SP",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "ocvp_seq",
+      "task": "SP",
+      "variant": "baseline",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/ocvp_seq_SP_baseline",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "baseline",
+        "model": "ocvp_seq",
+        "task": "SP",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "ocvp_seq",
+      "task": "SP",
+      "variant": "hsr",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/ocvp_seq_SP_hsr",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "hsr",
+        "model": "ocvp_seq",
+        "task": "SP",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "savi_transformer",
+      "task": "SP",
+      "variant": "baseline",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/savi_transformer_SP_baseline",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "baseline",
+        "model": "savi_transformer",
+        "task": "SP",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "savi_transformer",
+      "task": "SP",
+      "variant": "hsr",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/savi_transformer_SP_hsr",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "hsr",
+        "model": "savi_transformer",
+        "task": "SP",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "dino_foresight",
+      "task": "SP",
+      "variant": "baseline",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/dino_foresight_SP_baseline",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "baseline",
+        "model": "dino_foresight",
+        "task": "SP",
+        "diagnostic_only": true,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 4.172325134277344e-07,
+        "impossible_max_abs": 4.172325134277344e-07,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "dino_foresight",
+      "task": "SP",
+      "variant": "hsr",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/dino_foresight_SP_hsr",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "hsr",
+        "model": "dino_foresight",
+        "task": "SP",
+        "diagnostic_only": true,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 1.1920928955078125e-07,
+        "impossible_max_abs": 1.1920928955078125e-07,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "vjepa2_vitg",
+      "task": "SP",
+      "variant": "baseline",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/vjepa2_vitg_SP_baseline",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "baseline",
+        "model": "vjepa2_vitg",
+        "task": "SP",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "vjepa2_vitg",
+      "task": "SP",
+      "variant": "hsr",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/vjepa2_vitg_SP_hsr",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "hsr",
+        "model": "vjepa2_vitg",
+        "task": "SP",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "vjepa2_vitl",
+      "task": "SP",
+      "variant": "baseline",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/vjepa2_vitl_SP_baseline",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "baseline",
+        "model": "vjepa2_vitl",
+        "task": "SP",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "vjepa2_vitl",
+      "task": "SP",
+      "variant": "hsr",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/vjepa2_vitl_SP_hsr",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "hsr",
+        "model": "vjepa2_vitl",
+        "task": "SP",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "ddlp",
+      "task": "SP",
+      "variant": "baseline",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/ddlp_SP_baseline",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "baseline",
+        "model": "ddlp",
+        "task": "SP",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "ddlp",
+      "task": "SP",
+      "variant": "hsr",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/ddlp_SP_hsr",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "hsr",
+        "model": "ddlp",
+        "task": "SP",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "slotformer",
+      "task": "SP",
+      "variant": "baseline",
+      "complete": true,
+      "source_directory": "native_packaging_recheck_20261126/slotformer_SP_baseline",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "baseline",
+        "model": "slotformer",
+        "task": "SP",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "slotformer",
+      "task": "SP",
+      "variant": "hsr",
+      "complete": true,
+      "source_directory": "native_packaging_recheck_20261126/slotformer_SP_hsr",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "hsr",
+        "model": "slotformer",
+        "task": "SP",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "gswm",
+      "task": "SP",
+      "variant": "baseline",
+      "complete": true,
+      "source_directory": "native_packaging_recheck_20261126/gswm_SP_baseline",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "baseline",
+        "model": "gswm",
+        "task": "SP",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "gswm",
+      "task": "SP",
+      "variant": "hsr",
+      "complete": true,
+      "source_directory": "native_packaging_recheck_20261126/gswm_SP_hsr",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "hsr",
+        "model": "gswm",
+        "task": "SP",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "videomaev2",
+      "task": "IE",
+      "variant": "baseline",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/videomaev2_IE_baseline",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "baseline",
+        "model": "videomaev2",
+        "task": "IE",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "videomaev2",
+      "task": "IE",
+      "variant": "hsr",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/videomaev2_IE_hsr",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "hsr",
+        "model": "videomaev2",
+        "task": "IE",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "ocvp_seq",
+      "task": "IE",
+      "variant": "baseline",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/ocvp_seq_IE_baseline",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "baseline",
+        "model": "ocvp_seq",
+        "task": "IE",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "ocvp_seq",
+      "task": "IE",
+      "variant": "hsr",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/ocvp_seq_IE_hsr",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "hsr",
+        "model": "ocvp_seq",
+        "task": "IE",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "savi_transformer",
+      "task": "IE",
+      "variant": "baseline",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/savi_transformer_IE_baseline",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "baseline",
+        "model": "savi_transformer",
+        "task": "IE",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "savi_transformer",
+      "task": "IE",
+      "variant": "hsr",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/savi_transformer_IE_hsr",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "hsr",
+        "model": "savi_transformer",
+        "task": "IE",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "dino_foresight",
+      "task": "IE",
+      "variant": "baseline",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/dino_foresight_IE_baseline",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "baseline",
+        "model": "dino_foresight",
+        "task": "IE",
+        "diagnostic_only": true,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 4.172325134277344e-07,
+        "impossible_max_abs": 4.172325134277344e-07,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "dino_foresight",
+      "task": "IE",
+      "variant": "hsr",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/dino_foresight_IE_hsr",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "hsr",
+        "model": "dino_foresight",
+        "task": "IE",
+        "diagnostic_only": true,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 1.1920928955078125e-07,
+        "impossible_max_abs": 1.1920928955078125e-07,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "vjepa2_vitg",
+      "task": "IE",
+      "variant": "baseline",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/vjepa2_vitg_IE_baseline",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "baseline",
+        "model": "vjepa2_vitg",
+        "task": "IE",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "vjepa2_vitg",
+      "task": "IE",
+      "variant": "hsr",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/vjepa2_vitg_IE_hsr",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "hsr",
+        "model": "vjepa2_vitg",
+        "task": "IE",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "vjepa2_vitl",
+      "task": "IE",
+      "variant": "baseline",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/vjepa2_vitl_IE_baseline",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "baseline",
+        "model": "vjepa2_vitl",
+        "task": "IE",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "vjepa2_vitl",
+      "task": "IE",
+      "variant": "hsr",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/vjepa2_vitl_IE_hsr",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "hsr",
+        "model": "vjepa2_vitl",
+        "task": "IE",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "ddlp",
+      "task": "IE",
+      "variant": "baseline",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/ddlp_IE_baseline",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "baseline",
+        "model": "ddlp",
+        "task": "IE",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "ddlp",
+      "task": "IE",
+      "variant": "hsr",
+      "complete": true,
+      "source_directory": "native_reproduction_20261126/ddlp_IE_hsr",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "hsr",
+        "model": "ddlp",
+        "task": "IE",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "slotformer",
+      "task": "IE",
+      "variant": "baseline",
+      "complete": true,
+      "source_directory": "native_packaging_recheck_20261126/slotformer_IE_baseline",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "baseline",
+        "model": "slotformer",
+        "task": "IE",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "slotformer",
+      "task": "IE",
+      "variant": "hsr",
+      "complete": true,
+      "source_directory": "native_packaging_recheck_20261126/slotformer_IE_hsr",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "hsr",
+        "model": "slotformer",
+        "task": "IE",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "gswm",
+      "task": "IE",
+      "variant": "baseline",
+      "complete": true,
+      "source_directory": "native_packaging_recheck_20261126/gswm_IE_baseline",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "baseline",
+        "model": "gswm",
+        "task": "IE",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    },
+    {
+      "model": "gswm",
+      "task": "IE",
+      "variant": "hsr",
+      "complete": true,
+      "source_directory": "native_packaging_recheck_20261126/gswm_IE_hsr",
+      "details": {
+        "cases": 300,
+        "metrics_match_archive": true,
+        "variant": "hsr",
+        "model": "gswm",
+        "task": "IE",
+        "diagnostic_only": false,
+        "neural_budget_unchanged": true,
+        "possible_max_abs": 0.0,
+        "impossible_max_abs": 0.0,
+        "all_metrics_exact": true
+      }
+    }
+  ]
+}

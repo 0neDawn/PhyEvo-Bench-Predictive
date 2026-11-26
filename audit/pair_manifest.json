@@ -1,0 +1,16 @@
+{
+  "originals": [
+    {
+      "task": "SP",
+      "sha256": "4a27fb65c0673b0955038c3e7eac7ba35a59d2903d83d07031ddf2b6a4a4fa1f",
+      "source": "predictive_tracks/sp/finnal_result_with_dino_foresight/evaluated_pairs.csv"
+    },
+    {
+      "task": "IE",
+      "sha256": "4849d5ada0db3dac1e60507a98068fd9c9be06026b827ab1be344a31a55c5485",
+      "source": "predictive_tracks/ie/finnal_result_with_dino_foresight/evaluated_pairs.csv"
+    }
+  ],
+  "portable_sha256": "36a3bafd72e571b6237cfc9bb04a9d0539aba0da34389df6b7213a692a6d7ed1",
+  "change": "Concatenate the final frozen evaluated-pair manifests; only three absolute path fields changed to relative. The older general-entry CSV is not the final IE dataset."
+}

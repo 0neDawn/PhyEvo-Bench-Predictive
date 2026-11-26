@@ -1,0 +1,3282 @@
+[
+  {
+    "task": "SP",
+    "model_id": "videomaev2",
+    "model": "VideoMAE-V2",
+    "config_id": "S_videomaev2_pre_final_block_block_0_e0.25_a2.3407317_9bd4da81baef",
+    "parameters": {
+      "eta": 0.25,
+      "alpha": 2.34073174,
+      "q": null,
+      "presence": null,
+      "mass": null,
+      "min_history": null,
+      "position": "block_0"
+    },
+    "mode": "pre_final_block",
+    "diagnostic_only": false,
+    "paths": {
+      "baseline": {
+        "metrics.json": "results/SP/videomaev2/baseline/metrics.json",
+        "errors.npz": "results/SP/videomaev2/baseline/errors.npz",
+        "cases.jsonl": "results/SP/videomaev2/baseline/cases.jsonl"
+      },
+      "corrected": {
+        "metrics.json": "results/SP/videomaev2/corrected/metrics.json",
+        "errors.npz": "results/SP/videomaev2/corrected/errors.npz",
+        "cases.jsonl": "results/SP/videomaev2/corrected/cases.jsonl"
+      }
+    },
+    "displayed_values": [
+      {
+        "task": "SP",
+        "model": "VideoMAE-V2",
+        "kind": "baseline",
+        "field": "pairacc",
+        "submitted": "46.33",
+        "unrounded": 46.33333333333333,
+        "expected": "46.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "VideoMAE-V2",
+        "kind": "baseline",
+        "field": "vsa",
+        "submitted": "52.67",
+        "unrounded": 52.666666666666664,
+        "expected": "52.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "VideoMAE-V2",
+        "kind": "baseline",
+        "field": "auc",
+        "submitted": "41.53",
+        "unrounded": 41.52777777777778,
+        "expected": "41.53",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "VideoMAE-V2",
+        "kind": "baseline",
+        "field": "localization_mae",
+        "submitted": "0.489",
+        "unrounded": 0.4892086330935252,
+        "expected": "0.489",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "SP",
+        "model": "VideoMAE-V2",
+        "kind": "baseline",
+        "field": "joint_accuracy",
+        "submitted": "36.33",
+        "unrounded": 36.333333333333336,
+        "expected": "36.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "VideoMAE-V2",
+        "kind": "corrected",
+        "field": "pairacc",
+        "submitted": "47.67",
+        "unrounded": 47.66666666666667,
+        "expected": "47.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "VideoMAE-V2",
+        "kind": "corrected",
+        "field": "vsa",
+        "submitted": "53.67",
+        "unrounded": 53.666666666666664,
+        "expected": "53.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "VideoMAE-V2",
+        "kind": "corrected",
+        "field": "auc",
+        "submitted": "43.50",
+        "unrounded": 43.49666666666667,
+        "expected": "43.50",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "VideoMAE-V2",
+        "kind": "corrected",
+        "field": "localization_mae",
+        "submitted": "0.476",
+        "unrounded": 0.4755244755244755,
+        "expected": "0.476",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "SP",
+        "model": "VideoMAE-V2",
+        "kind": "corrected",
+        "field": "joint_accuracy",
+        "submitted": "37.67",
+        "unrounded": 37.666666666666664,
+        "expected": "37.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      }
+    ],
+    "displayed_gains": [
+      {
+        "task": "SP",
+        "model": "VideoMAE-V2",
+        "field": "pairacc",
+        "before": "46.33",
+        "after": "47.67",
+        "submitted": "+1.34",
+        "expected": "+1.34",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "VideoMAE-V2",
+        "field": "vsa",
+        "before": "52.67",
+        "after": "53.67",
+        "submitted": "+1.00",
+        "expected": "+1.00",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "VideoMAE-V2",
+        "field": "auc",
+        "before": "41.53",
+        "after": "43.50",
+        "submitted": "+1.97",
+        "expected": "+1.97",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "VideoMAE-V2",
+        "field": "joint_accuracy",
+        "before": "36.33",
+        "after": "37.67",
+        "submitted": "+1.34",
+        "expected": "+1.34",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "task": "SP",
+    "model_id": "ocvp_seq",
+    "model": "OCVPSeq",
+    "config_id": "ocvp_seq_output_only_a1250000_e1000000",
+    "parameters": {
+      "eta": 1.0,
+      "alpha": 1.25,
+      "q": null,
+      "presence": null,
+      "mass": null,
+      "min_history": null
+    },
+    "mode": "output_only",
+    "diagnostic_only": false,
+    "paths": {
+      "baseline": {
+        "metrics.json": "results/SP/ocvp_seq/baseline/metrics.json",
+        "errors.npz": "results/SP/ocvp_seq/baseline/errors.npz",
+        "cases.jsonl": "results/SP/ocvp_seq/baseline/cases.jsonl"
+      },
+      "corrected": {
+        "metrics.json": "results/SP/ocvp_seq/corrected/metrics.json",
+        "errors.npz": "results/SP/ocvp_seq/corrected/errors.npz",
+        "cases.jsonl": "results/SP/ocvp_seq/corrected/cases.jsonl"
+      }
+    },
+    "displayed_values": [
+      {
+        "task": "SP",
+        "model": "OCVPSeq",
+        "kind": "baseline",
+        "field": "pairacc",
+        "submitted": "59.33",
+        "unrounded": 59.333333333333336,
+        "expected": "59.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "OCVPSeq",
+        "kind": "baseline",
+        "field": "vsa",
+        "submitted": "67.67",
+        "unrounded": 67.66666666666666,
+        "expected": "67.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "OCVPSeq",
+        "kind": "baseline",
+        "field": "auc",
+        "submitted": "64.80",
+        "unrounded": 64.8,
+        "expected": "64.80",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "OCVPSeq",
+        "kind": "baseline",
+        "field": "localization_mae",
+        "submitted": "0.101",
+        "unrounded": 0.10112359550561797,
+        "expected": "0.101",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "SP",
+        "model": "OCVPSeq",
+        "kind": "baseline",
+        "field": "joint_accuracy",
+        "submitted": "57.00",
+        "unrounded": 56.99999999999999,
+        "expected": "57.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "OCVPSeq",
+        "kind": "corrected",
+        "field": "pairacc",
+        "submitted": "61.67",
+        "unrounded": 61.66666666666667,
+        "expected": "61.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "OCVPSeq",
+        "kind": "corrected",
+        "field": "vsa",
+        "submitted": "67.67",
+        "unrounded": 67.66666666666666,
+        "expected": "67.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "OCVPSeq",
+        "kind": "corrected",
+        "field": "auc",
+        "submitted": "67.00",
+        "unrounded": 67.00333333333333,
+        "expected": "67.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "OCVPSeq",
+        "kind": "corrected",
+        "field": "localization_mae",
+        "submitted": "0.114",
+        "unrounded": 0.11351351351351352,
+        "expected": "0.114",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "SP",
+        "model": "OCVPSeq",
+        "kind": "corrected",
+        "field": "joint_accuracy",
+        "submitted": "58.67",
+        "unrounded": 58.666666666666664,
+        "expected": "58.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      }
+    ],
+    "displayed_gains": [
+      {
+        "task": "SP",
+        "model": "OCVPSeq",
+        "field": "pairacc",
+        "before": "59.33",
+        "after": "61.67",
+        "submitted": "+2.34",
+        "expected": "+2.34",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "OCVPSeq",
+        "field": "vsa",
+        "before": "67.67",
+        "after": "67.67",
+        "submitted": "0.00",
+        "expected": "0.00",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "OCVPSeq",
+        "field": "auc",
+        "before": "64.80",
+        "after": "67.00",
+        "submitted": "+2.20",
+        "expected": "+2.20",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "OCVPSeq",
+        "field": "joint_accuracy",
+        "before": "57.00",
+        "after": "58.67",
+        "submitted": "+1.67",
+        "expected": "+1.67",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "task": "SP",
+    "model_id": "savi_transformer",
+    "model": "SAVi",
+    "config_id": "S_savi_transformer_output_only_native_e0.9954427_a1.225_4c9f5d3620fd",
+    "parameters": {
+      "eta": 0.9954427,
+      "alpha": 1.225,
+      "q": null,
+      "presence": null,
+      "mass": null,
+      "min_history": null
+    },
+    "mode": "output_only",
+    "diagnostic_only": false,
+    "paths": {
+      "baseline": {
+        "metrics.json": "results/SP/savi_transformer/baseline/metrics.json",
+        "errors.npz": "results/SP/savi_transformer/baseline/errors.npz",
+        "cases.jsonl": "results/SP/savi_transformer/baseline/cases.jsonl"
+      },
+      "corrected": {
+        "metrics.json": "results/SP/savi_transformer/corrected/metrics.json",
+        "errors.npz": "results/SP/savi_transformer/corrected/errors.npz",
+        "cases.jsonl": "results/SP/savi_transformer/corrected/cases.jsonl"
+      }
+    },
+    "displayed_values": [
+      {
+        "task": "SP",
+        "model": "SAVi",
+        "kind": "baseline",
+        "field": "pairacc",
+        "submitted": "60.00",
+        "unrounded": 60.0,
+        "expected": "60.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "SAVi",
+        "kind": "baseline",
+        "field": "vsa",
+        "submitted": "68.33",
+        "unrounded": 68.33333333333333,
+        "expected": "68.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "SAVi",
+        "kind": "baseline",
+        "field": "auc",
+        "submitted": "66.40",
+        "unrounded": 66.39777777777778,
+        "expected": "66.40",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "SAVi",
+        "kind": "baseline",
+        "field": "localization_mae",
+        "submitted": "0.106",
+        "unrounded": 0.10555555555555556,
+        "expected": "0.106",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "SP",
+        "model": "SAVi",
+        "kind": "baseline",
+        "field": "joint_accuracy",
+        "submitted": "58.33",
+        "unrounded": 58.333333333333336,
+        "expected": "58.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "SAVi",
+        "kind": "corrected",
+        "field": "pairacc",
+        "submitted": "61.00",
+        "unrounded": 61.0,
+        "expected": "61.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "SAVi",
+        "kind": "corrected",
+        "field": "vsa",
+        "submitted": "68.33",
+        "unrounded": 68.33333333333333,
+        "expected": "68.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "SAVi",
+        "kind": "corrected",
+        "field": "auc",
+        "submitted": "67.48",
+        "unrounded": 67.48333333333333,
+        "expected": "67.48",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "SAVi",
+        "kind": "corrected",
+        "field": "localization_mae",
+        "submitted": "0.082",
+        "unrounded": 0.08196721311475409,
+        "expected": "0.082",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "SP",
+        "model": "SAVi",
+        "kind": "corrected",
+        "field": "joint_accuracy",
+        "submitted": "59.67",
+        "unrounded": 59.66666666666667,
+        "expected": "59.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      }
+    ],
+    "displayed_gains": [
+      {
+        "task": "SP",
+        "model": "SAVi",
+        "field": "pairacc",
+        "before": "60.00",
+        "after": "61.00",
+        "submitted": "+1.00",
+        "expected": "+1.00",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "SAVi",
+        "field": "vsa",
+        "before": "68.33",
+        "after": "68.33",
+        "submitted": "0.00",
+        "expected": "0.00",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "SAVi",
+        "field": "auc",
+        "before": "66.40",
+        "after": "67.48",
+        "submitted": "+1.08",
+        "expected": "+1.08",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "SAVi",
+        "field": "joint_accuracy",
+        "before": "58.33",
+        "after": "59.67",
+        "submitted": "+1.34",
+        "expected": "+1.34",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "task": "SP",
+    "model_id": "dino_foresight",
+    "model": "DINO-Foresight",
+    "config_id": "dino_foresight_output_only_e1_a1.25_096b26279fcd",
+    "parameters": {
+      "eta": 1.0,
+      "alpha": 1.25,
+      "q": null,
+      "presence": null,
+      "mass": null,
+      "min_history": null
+    },
+    "mode": "output_only",
+    "diagnostic_only": true,
+    "paths": {
+      "baseline": {
+        "metrics.json": "results/SP/dino_foresight/baseline/metrics.json",
+        "errors.npz": "results/SP/dino_foresight/baseline/errors.npz",
+        "cases.jsonl": "results/SP/dino_foresight/baseline/cases.jsonl"
+      },
+      "corrected": {
+        "metrics.json": "results/SP/dino_foresight/corrected/metrics.json",
+        "errors.npz": "results/SP/dino_foresight/corrected/errors.npz",
+        "cases.jsonl": "results/SP/dino_foresight/corrected/cases.jsonl"
+      }
+    },
+    "displayed_values": [
+      {
+        "task": "SP",
+        "model": "DINO-Foresight",
+        "kind": "baseline",
+        "field": "pairacc",
+        "submitted": "76.67",
+        "unrounded": 76.66666666666667,
+        "expected": "76.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "DINO-Foresight",
+        "kind": "baseline",
+        "field": "vsa",
+        "submitted": "81.00",
+        "unrounded": 81.0,
+        "expected": "81.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "DINO-Foresight",
+        "kind": "baseline",
+        "field": "auc",
+        "submitted": "88.96",
+        "unrounded": 88.95555555555555,
+        "expected": "88.96",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "DINO-Foresight",
+        "kind": "baseline",
+        "field": "localization_mae",
+        "submitted": "0.004",
+        "unrounded": 0.004347826086956522,
+        "expected": "0.004",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "SP",
+        "model": "DINO-Foresight",
+        "kind": "baseline",
+        "field": "joint_accuracy",
+        "submitted": "76.33",
+        "unrounded": 76.33333333333333,
+        "expected": "76.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "DINO-Foresight",
+        "kind": "corrected",
+        "field": "pairacc",
+        "submitted": "76.67",
+        "unrounded": 76.66666666666667,
+        "expected": "76.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "DINO-Foresight",
+        "kind": "corrected",
+        "field": "vsa",
+        "submitted": "81.33",
+        "unrounded": 81.33333333333333,
+        "expected": "81.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "DINO-Foresight",
+        "kind": "corrected",
+        "field": "auc",
+        "submitted": "89.41",
+        "unrounded": 89.41333333333333,
+        "expected": "89.41",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "DINO-Foresight",
+        "kind": "corrected",
+        "field": "localization_mae",
+        "submitted": "0.000",
+        "unrounded": 0.0,
+        "expected": "0.000",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "SP",
+        "model": "DINO-Foresight",
+        "kind": "corrected",
+        "field": "joint_accuracy",
+        "submitted": "76.67",
+        "unrounded": 76.66666666666667,
+        "expected": "76.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      }
+    ],
+    "displayed_gains": [
+      {
+        "task": "SP",
+        "model": "DINO-Foresight",
+        "field": "pairacc",
+        "before": "76.67",
+        "after": "76.67",
+        "submitted": "0.00",
+        "expected": "0.00",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "DINO-Foresight",
+        "field": "vsa",
+        "before": "81.00",
+        "after": "81.33",
+        "submitted": "+0.33",
+        "expected": "+0.33",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "DINO-Foresight",
+        "field": "auc",
+        "before": "88.96",
+        "after": "89.41",
+        "submitted": "+0.45",
+        "expected": "+0.45",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "DINO-Foresight",
+        "field": "joint_accuracy",
+        "before": "76.33",
+        "after": "76.67",
+        "submitted": "+0.34",
+        "expected": "+0.34",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "task": "SP",
+    "model_id": "vjepa2_vitg",
+    "model": "V-JEPA 2 (ViT-G)",
+    "config_id": "vjepa2_vitg_output_only_e0.47395833_a1.4875_053686b533cd",
+    "parameters": {
+      "eta": 0.47395833,
+      "alpha": 1.4875,
+      "q": null,
+      "presence": null,
+      "mass": null,
+      "min_history": null
+    },
+    "mode": "output_only",
+    "diagnostic_only": false,
+    "paths": {
+      "baseline": {
+        "metrics.json": "results/SP/vjepa2_vitg/baseline/metrics.json",
+        "errors.npz": "results/SP/vjepa2_vitg/baseline/errors.npz",
+        "cases.jsonl": "results/SP/vjepa2_vitg/baseline/cases.jsonl"
+      },
+      "corrected": {
+        "metrics.json": "results/SP/vjepa2_vitg/corrected/metrics.json",
+        "errors.npz": "results/SP/vjepa2_vitg/corrected/errors.npz",
+        "cases.jsonl": "results/SP/vjepa2_vitg/corrected/cases.jsonl"
+      }
+    },
+    "displayed_values": [
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "baseline",
+        "field": "pairacc",
+        "submitted": "97.00",
+        "unrounded": 97.0,
+        "expected": "97.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "baseline",
+        "field": "vsa",
+        "submitted": "97.00",
+        "unrounded": 97.0,
+        "expected": "97.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "baseline",
+        "field": "auc",
+        "submitted": "99.79",
+        "unrounded": 99.78777777777778,
+        "expected": "99.79",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "baseline",
+        "field": "localization_mae",
+        "submitted": "0.034",
+        "unrounded": 0.03436426116838488,
+        "expected": "0.034",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "baseline",
+        "field": "joint_accuracy",
+        "submitted": "95.33",
+        "unrounded": 95.33333333333334,
+        "expected": "95.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "corrected",
+        "field": "pairacc",
+        "submitted": "97.33",
+        "unrounded": 97.33333333333334,
+        "expected": "97.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "corrected",
+        "field": "vsa",
+        "submitted": "97.00",
+        "unrounded": 97.0,
+        "expected": "97.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "corrected",
+        "field": "auc",
+        "submitted": "99.79",
+        "unrounded": 99.79333333333334,
+        "expected": "99.79",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "corrected",
+        "field": "localization_mae",
+        "submitted": "0.034",
+        "unrounded": 0.03424657534246575,
+        "expected": "0.034",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "corrected",
+        "field": "joint_accuracy",
+        "submitted": "95.67",
+        "unrounded": 95.66666666666667,
+        "expected": "95.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      }
+    ],
+    "displayed_gains": [
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-G)",
+        "field": "pairacc",
+        "before": "97.00",
+        "after": "97.33",
+        "submitted": "+0.33",
+        "expected": "+0.33",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-G)",
+        "field": "vsa",
+        "before": "97.00",
+        "after": "97.00",
+        "submitted": "0.00",
+        "expected": "0.00",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-G)",
+        "field": "auc",
+        "before": "99.79",
+        "after": "99.79",
+        "submitted": "0.00",
+        "expected": "0.00",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-G)",
+        "field": "joint_accuracy",
+        "before": "95.33",
+        "after": "95.67",
+        "submitted": "+0.34",
+        "expected": "+0.34",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "task": "SP",
+    "model_id": "vjepa2_vitl",
+    "model": "V-JEPA 2 (ViT-L)",
+    "config_id": "S_vjepa2_vitl_pre_final_block_block_9_e0.2125_a5.4041311_ff08dcf9091b",
+    "parameters": {
+      "eta": 0.2125,
+      "alpha": 5.4041311,
+      "q": null,
+      "presence": null,
+      "mass": null,
+      "min_history": null,
+      "position": "block_9"
+    },
+    "mode": "pre_final_block",
+    "diagnostic_only": false,
+    "paths": {
+      "baseline": {
+        "metrics.json": "results/SP/vjepa2_vitl/baseline/metrics.json",
+        "errors.npz": "results/SP/vjepa2_vitl/baseline/errors.npz",
+        "cases.jsonl": "results/SP/vjepa2_vitl/baseline/cases.jsonl"
+      },
+      "corrected": {
+        "metrics.json": "results/SP/vjepa2_vitl/corrected/metrics.json",
+        "errors.npz": "results/SP/vjepa2_vitl/corrected/errors.npz",
+        "cases.jsonl": "results/SP/vjepa2_vitl/corrected/cases.jsonl"
+      }
+    },
+    "displayed_values": [
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "baseline",
+        "field": "pairacc",
+        "submitted": "95.67",
+        "unrounded": 95.66666666666667,
+        "expected": "95.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "baseline",
+        "field": "vsa",
+        "submitted": "96.33",
+        "unrounded": 96.33333333333334,
+        "expected": "96.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "baseline",
+        "field": "auc",
+        "submitted": "99.40",
+        "unrounded": 99.39888888888889,
+        "expected": "99.40",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "baseline",
+        "field": "localization_mae",
+        "submitted": "0.021",
+        "unrounded": 0.020905923344947737,
+        "expected": "0.021",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "baseline",
+        "field": "joint_accuracy",
+        "submitted": "94.67",
+        "unrounded": 94.66666666666667,
+        "expected": "94.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "corrected",
+        "field": "pairacc",
+        "submitted": "96.00",
+        "unrounded": 96.0,
+        "expected": "96.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "corrected",
+        "field": "vsa",
+        "submitted": "96.33",
+        "unrounded": 96.33333333333334,
+        "expected": "96.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "corrected",
+        "field": "auc",
+        "submitted": "99.51",
+        "unrounded": 99.51333333333334,
+        "expected": "99.51",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "corrected",
+        "field": "localization_mae",
+        "submitted": "0.028",
+        "unrounded": 0.027777777777777776,
+        "expected": "0.028",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "corrected",
+        "field": "joint_accuracy",
+        "submitted": "94.67",
+        "unrounded": 94.66666666666667,
+        "expected": "94.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      }
+    ],
+    "displayed_gains": [
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-L)",
+        "field": "pairacc",
+        "before": "95.67",
+        "after": "96.00",
+        "submitted": "+0.33",
+        "expected": "+0.33",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-L)",
+        "field": "vsa",
+        "before": "96.33",
+        "after": "96.33",
+        "submitted": "0.00",
+        "expected": "0.00",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-L)",
+        "field": "auc",
+        "before": "99.40",
+        "after": "99.51",
+        "submitted": "+0.11",
+        "expected": "+0.11",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "V-JEPA 2 (ViT-L)",
+        "field": "joint_accuracy",
+        "before": "94.67",
+        "after": "94.67",
+        "submitted": "0.00",
+        "expected": "0.00",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "task": "SP",
+    "model_id": "ddlp",
+    "model": "DDLP",
+    "config_id": "e050_q025_p075_v4_n2",
+    "parameters": {
+      "eta": 0.5,
+      "q": 0.25,
+      "presence": 0.75,
+      "mass": 4.0,
+      "min_history": 2,
+      "alpha": 1.0
+    },
+    "mode": "feedback",
+    "diagnostic_only": false,
+    "paths": {
+      "baseline": {
+        "metrics.json": "results/SP/ddlp/baseline/metrics.json",
+        "errors.npz": "results/SP/ddlp/baseline/errors.npz",
+        "cases.jsonl": "results/SP/ddlp/baseline/cases.jsonl"
+      },
+      "corrected": {
+        "metrics.json": "results/SP/ddlp/corrected/metrics.json",
+        "errors.npz": "results/SP/ddlp/corrected/errors.npz",
+        "cases.jsonl": "results/SP/ddlp/corrected/cases.jsonl"
+      }
+    },
+    "displayed_values": [
+      {
+        "task": "SP",
+        "model": "DDLP",
+        "kind": "baseline",
+        "field": "pairacc",
+        "submitted": "61.00",
+        "unrounded": 61.0,
+        "expected": "61.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "DDLP",
+        "kind": "baseline",
+        "field": "vsa",
+        "submitted": "59.67",
+        "unrounded": 59.66666666666667,
+        "expected": "59.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "DDLP",
+        "kind": "baseline",
+        "field": "auc",
+        "submitted": "64.73",
+        "unrounded": 64.73444444444443,
+        "expected": "64.73",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "DDLP",
+        "kind": "baseline",
+        "field": "localization_mae",
+        "submitted": "0.137",
+        "unrounded": 0.13736263736263737,
+        "expected": "0.137",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "SP",
+        "model": "DDLP",
+        "kind": "baseline",
+        "field": "joint_accuracy",
+        "submitted": "57.33",
+        "unrounded": 57.333333333333336,
+        "expected": "57.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "DDLP",
+        "kind": "corrected",
+        "field": "pairacc",
+        "submitted": "62.00",
+        "unrounded": 62.0,
+        "expected": "62.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "DDLP",
+        "kind": "corrected",
+        "field": "vsa",
+        "submitted": "59.33",
+        "unrounded": 59.333333333333336,
+        "expected": "59.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "DDLP",
+        "kind": "corrected",
+        "field": "auc",
+        "submitted": "64.79",
+        "unrounded": 64.7911111111111,
+        "expected": "64.79",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "DDLP",
+        "kind": "corrected",
+        "field": "localization_mae",
+        "submitted": "0.162",
+        "unrounded": 0.16216216216216217,
+        "expected": "0.162",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "SP",
+        "model": "DDLP",
+        "kind": "corrected",
+        "field": "joint_accuracy",
+        "submitted": "58.00",
+        "unrounded": 57.99999999999999,
+        "expected": "58.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      }
+    ],
+    "displayed_gains": [
+      {
+        "task": "SP",
+        "model": "DDLP",
+        "field": "pairacc",
+        "before": "61.00",
+        "after": "62.00",
+        "submitted": "+1.00",
+        "expected": "+1.00",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "DDLP",
+        "field": "vsa",
+        "before": "59.67",
+        "after": "59.33",
+        "submitted": "-0.34",
+        "expected": "-0.34",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "DDLP",
+        "field": "auc",
+        "before": "64.73",
+        "after": "64.79",
+        "submitted": "+0.06",
+        "expected": "+0.06",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "DDLP",
+        "field": "joint_accuracy",
+        "before": "57.33",
+        "after": "58.00",
+        "submitted": "+0.67",
+        "expected": "+0.67",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "task": "SP",
+    "model_id": "slotformer",
+    "model": "SlotFormer",
+    "config_id": "slotformer_output_only_e0.9975_a1.06_c4eb5cfb6e68",
+    "parameters": {
+      "eta": 0.9975,
+      "alpha": 1.06,
+      "q": null,
+      "presence": null,
+      "mass": null,
+      "min_history": null
+    },
+    "mode": "output_only",
+    "diagnostic_only": false,
+    "paths": {
+      "baseline": {
+        "metrics.json": "results/SP/slotformer/baseline/metrics.json",
+        "errors.npz": "results/SP/slotformer/baseline/errors.npz",
+        "cases.jsonl": "results/SP/slotformer/baseline/cases.jsonl"
+      },
+      "corrected": {
+        "metrics.json": "results/SP/slotformer/corrected/metrics.json",
+        "errors.npz": "results/SP/slotformer/corrected/errors.npz",
+        "cases.jsonl": "results/SP/slotformer/corrected/cases.jsonl"
+      }
+    },
+    "displayed_values": [
+      {
+        "task": "SP",
+        "model": "SlotFormer",
+        "kind": "baseline",
+        "field": "pairacc",
+        "submitted": "72.33",
+        "unrounded": 72.33333333333334,
+        "expected": "72.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "SlotFormer",
+        "kind": "baseline",
+        "field": "vsa",
+        "submitted": "82.00",
+        "unrounded": 82.0,
+        "expected": "82.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "SlotFormer",
+        "kind": "baseline",
+        "field": "auc",
+        "submitted": "81.41",
+        "unrounded": 81.40777777777778,
+        "expected": "81.41",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "SlotFormer",
+        "kind": "baseline",
+        "field": "localization_mae",
+        "submitted": "0.111",
+        "unrounded": 0.11059907834101383,
+        "expected": "0.111",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "SP",
+        "model": "SlotFormer",
+        "kind": "baseline",
+        "field": "joint_accuracy",
+        "submitted": "70.33",
+        "unrounded": 70.33333333333334,
+        "expected": "70.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "SlotFormer",
+        "kind": "corrected",
+        "field": "pairacc",
+        "submitted": "75.33",
+        "unrounded": 75.33333333333333,
+        "expected": "75.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "SlotFormer",
+        "kind": "corrected",
+        "field": "vsa",
+        "submitted": "83.33",
+        "unrounded": 83.33333333333334,
+        "expected": "83.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "SlotFormer",
+        "kind": "corrected",
+        "field": "auc",
+        "submitted": "82.92",
+        "unrounded": 82.91555555555556,
+        "expected": "82.92",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "SlotFormer",
+        "kind": "corrected",
+        "field": "localization_mae",
+        "submitted": "0.084",
+        "unrounded": 0.08444444444444445,
+        "expected": "0.084",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "SP",
+        "model": "SlotFormer",
+        "kind": "corrected",
+        "field": "joint_accuracy",
+        "submitted": "73.33",
+        "unrounded": 73.33333333333333,
+        "expected": "73.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      }
+    ],
+    "displayed_gains": [
+      {
+        "task": "SP",
+        "model": "SlotFormer",
+        "field": "pairacc",
+        "before": "72.33",
+        "after": "75.33",
+        "submitted": "+3.00",
+        "expected": "+3.00",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "SlotFormer",
+        "field": "vsa",
+        "before": "82.00",
+        "after": "83.33",
+        "submitted": "+1.33",
+        "expected": "+1.33",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "SlotFormer",
+        "field": "auc",
+        "before": "81.41",
+        "after": "82.92",
+        "submitted": "+1.51",
+        "expected": "+1.51",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "SlotFormer",
+        "field": "joint_accuracy",
+        "before": "70.33",
+        "after": "73.33",
+        "submitted": "+3.00",
+        "expected": "+3.00",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "task": "SP",
+    "model_id": "gswm",
+    "model": "G-SWM",
+    "config_id": "gswm_feedback_e1_a2_4ac78e6f8c37",
+    "parameters": {
+      "eta": 1.0,
+      "alpha": 2.0,
+      "q": 0.75,
+      "presence": 0.5,
+      "mass": 4.0,
+      "min_history": 3
+    },
+    "mode": "feedback",
+    "diagnostic_only": false,
+    "paths": {
+      "baseline": {
+        "metrics.json": "results/SP/gswm/baseline/metrics.json",
+        "errors.npz": "results/SP/gswm/baseline/errors.npz",
+        "cases.jsonl": "results/SP/gswm/baseline/cases.jsonl"
+      },
+      "corrected": {
+        "metrics.json": "results/SP/gswm/corrected/metrics.json",
+        "errors.npz": "results/SP/gswm/corrected/errors.npz",
+        "cases.jsonl": "results/SP/gswm/corrected/cases.jsonl"
+      }
+    },
+    "displayed_values": [
+      {
+        "task": "SP",
+        "model": "G-SWM",
+        "kind": "baseline",
+        "field": "pairacc",
+        "submitted": "60.00",
+        "unrounded": 60.0,
+        "expected": "60.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "G-SWM",
+        "kind": "baseline",
+        "field": "vsa",
+        "submitted": "60.33",
+        "unrounded": 60.333333333333336,
+        "expected": "60.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "G-SWM",
+        "kind": "baseline",
+        "field": "auc",
+        "submitted": "64.59",
+        "unrounded": 64.58666666666667,
+        "expected": "64.59",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "G-SWM",
+        "kind": "baseline",
+        "field": "localization_mae",
+        "submitted": "0.106",
+        "unrounded": 0.10555555555555556,
+        "expected": "0.106",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "SP",
+        "model": "G-SWM",
+        "kind": "baseline",
+        "field": "joint_accuracy",
+        "submitted": "57.33",
+        "unrounded": 57.333333333333336,
+        "expected": "57.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "G-SWM",
+        "kind": "corrected",
+        "field": "pairacc",
+        "submitted": "60.67",
+        "unrounded": 60.66666666666667,
+        "expected": "60.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "G-SWM",
+        "kind": "corrected",
+        "field": "vsa",
+        "submitted": "60.67",
+        "unrounded": 60.66666666666667,
+        "expected": "60.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "G-SWM",
+        "kind": "corrected",
+        "field": "auc",
+        "submitted": "64.68",
+        "unrounded": 64.68444444444444,
+        "expected": "64.68",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "SP",
+        "model": "G-SWM",
+        "kind": "corrected",
+        "field": "localization_mae",
+        "submitted": "0.122",
+        "unrounded": 0.12154696132596685,
+        "expected": "0.122",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "SP",
+        "model": "G-SWM",
+        "kind": "corrected",
+        "field": "joint_accuracy",
+        "submitted": "58.00",
+        "unrounded": 57.99999999999999,
+        "expected": "58.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      }
+    ],
+    "displayed_gains": [
+      {
+        "task": "SP",
+        "model": "G-SWM",
+        "field": "pairacc",
+        "before": "60.00",
+        "after": "60.67",
+        "submitted": "+0.67",
+        "expected": "+0.67",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "G-SWM",
+        "field": "vsa",
+        "before": "60.33",
+        "after": "60.67",
+        "submitted": "+0.34",
+        "expected": "+0.34",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "G-SWM",
+        "field": "auc",
+        "before": "64.59",
+        "after": "64.68",
+        "submitted": "+0.09",
+        "expected": "+0.09",
+        "matches": true
+      },
+      {
+        "task": "SP",
+        "model": "G-SWM",
+        "field": "joint_accuracy",
+        "before": "57.33",
+        "after": "58.00",
+        "submitted": "+0.67",
+        "expected": "+0.67",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "task": "IE",
+    "model_id": "videomaev2",
+    "model": "VideoMAE-V2",
+    "config_id": "S_videomaev2_pre_final_block_block_1_e0.9375_a3.2742206_a89f222d579d",
+    "parameters": {
+      "eta": 0.9375,
+      "alpha": 3.27422062,
+      "q": null,
+      "presence": null,
+      "mass": null,
+      "min_history": null,
+      "position": "block_1"
+    },
+    "mode": "pre_final_block",
+    "diagnostic_only": false,
+    "paths": {
+      "baseline": {
+        "metrics.json": "results/IE/videomaev2/baseline/metrics.json",
+        "errors.npz": "results/IE/videomaev2/baseline/errors.npz",
+        "cases.jsonl": "results/IE/videomaev2/baseline/cases.jsonl"
+      },
+      "corrected": {
+        "metrics.json": "results/IE/videomaev2/corrected/metrics.json",
+        "errors.npz": "results/IE/videomaev2/corrected/errors.npz",
+        "cases.jsonl": "results/IE/videomaev2/corrected/cases.jsonl"
+      }
+    },
+    "displayed_values": [
+      {
+        "task": "IE",
+        "model": "VideoMAE-V2",
+        "kind": "baseline",
+        "field": "pairacc",
+        "submitted": "48.33",
+        "unrounded": 48.333333333333336,
+        "expected": "48.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "VideoMAE-V2",
+        "kind": "baseline",
+        "field": "vsa",
+        "submitted": "60.00",
+        "unrounded": 60.0,
+        "expected": "60.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "VideoMAE-V2",
+        "kind": "baseline",
+        "field": "auc",
+        "submitted": "41.34",
+        "unrounded": 41.33888888888889,
+        "expected": "41.34",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "VideoMAE-V2",
+        "kind": "baseline",
+        "field": "localization_mae",
+        "submitted": "0.248",
+        "unrounded": 0.2482758620689655,
+        "expected": "0.248",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "IE",
+        "model": "VideoMAE-V2",
+        "kind": "baseline",
+        "field": "joint_accuracy",
+        "submitted": "42.33",
+        "unrounded": 42.333333333333336,
+        "expected": "42.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "VideoMAE-V2",
+        "kind": "corrected",
+        "field": "pairacc",
+        "submitted": "49.33",
+        "unrounded": 49.333333333333336,
+        "expected": "49.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "VideoMAE-V2",
+        "kind": "corrected",
+        "field": "vsa",
+        "submitted": "59.00",
+        "unrounded": 59.0,
+        "expected": "59.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "VideoMAE-V2",
+        "kind": "corrected",
+        "field": "auc",
+        "submitted": "43.35",
+        "unrounded": 43.34888888888889,
+        "expected": "43.35",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "VideoMAE-V2",
+        "kind": "corrected",
+        "field": "localization_mae",
+        "submitted": "0.257",
+        "unrounded": 0.25675675675675674,
+        "expected": "0.257",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "IE",
+        "model": "VideoMAE-V2",
+        "kind": "corrected",
+        "field": "joint_accuracy",
+        "submitted": "43.33",
+        "unrounded": 43.333333333333336,
+        "expected": "43.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      }
+    ],
+    "displayed_gains": [
+      {
+        "task": "IE",
+        "model": "VideoMAE-V2",
+        "field": "pairacc",
+        "before": "48.33",
+        "after": "49.33",
+        "submitted": "+1.00",
+        "expected": "+1.00",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "VideoMAE-V2",
+        "field": "vsa",
+        "before": "60.00",
+        "after": "59.00",
+        "submitted": "-1.00",
+        "expected": "-1.00",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "VideoMAE-V2",
+        "field": "auc",
+        "before": "41.34",
+        "after": "43.35",
+        "submitted": "+2.01",
+        "expected": "+2.01",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "VideoMAE-V2",
+        "field": "joint_accuracy",
+        "before": "42.33",
+        "after": "43.33",
+        "submitted": "+1.00",
+        "expected": "+1.00",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "task": "IE",
+    "model_id": "ocvp_seq",
+    "model": "OCVPSeq",
+    "config_id": "AC_ocvp_seq_state_only_e0.4765625_a1.984375_9a8d7d5a5530",
+    "parameters": {
+      "eta": 0.4765625,
+      "alpha": 1.984375,
+      "q": null,
+      "presence": null,
+      "mass": null,
+      "min_history": null
+    },
+    "mode": "state_only",
+    "diagnostic_only": false,
+    "paths": {
+      "baseline": {
+        "metrics.json": "results/IE/ocvp_seq/baseline/metrics.json",
+        "errors.npz": "results/IE/ocvp_seq/baseline/errors.npz",
+        "cases.jsonl": "results/IE/ocvp_seq/baseline/cases.jsonl"
+      },
+      "corrected": {
+        "metrics.json": "results/IE/ocvp_seq/corrected/metrics.json",
+        "errors.npz": "results/IE/ocvp_seq/corrected/errors.npz",
+        "cases.jsonl": "results/IE/ocvp_seq/corrected/cases.jsonl"
+      }
+    },
+    "displayed_values": [
+      {
+        "task": "IE",
+        "model": "OCVPSeq",
+        "kind": "baseline",
+        "field": "pairacc",
+        "submitted": "37.67",
+        "unrounded": 37.666666666666664,
+        "expected": "37.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "OCVPSeq",
+        "kind": "baseline",
+        "field": "vsa",
+        "submitted": "50.00",
+        "unrounded": 50.0,
+        "expected": "50.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "OCVPSeq",
+        "kind": "baseline",
+        "field": "auc",
+        "submitted": "35.67",
+        "unrounded": 35.67444444444444,
+        "expected": "35.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "OCVPSeq",
+        "kind": "baseline",
+        "field": "localization_mae",
+        "submitted": "0.509",
+        "unrounded": 0.5089285714285714,
+        "expected": "0.509",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "IE",
+        "model": "OCVPSeq",
+        "kind": "baseline",
+        "field": "joint_accuracy",
+        "submitted": "29.67",
+        "unrounded": 29.666666666666668,
+        "expected": "29.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "OCVPSeq",
+        "kind": "corrected",
+        "field": "pairacc",
+        "submitted": "38.00",
+        "unrounded": 38.0,
+        "expected": "38.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "OCVPSeq",
+        "kind": "corrected",
+        "field": "vsa",
+        "submitted": "50.00",
+        "unrounded": 50.0,
+        "expected": "50.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "OCVPSeq",
+        "kind": "corrected",
+        "field": "auc",
+        "submitted": "35.64",
+        "unrounded": 35.64,
+        "expected": "35.64",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "OCVPSeq",
+        "kind": "corrected",
+        "field": "localization_mae",
+        "submitted": "0.504",
+        "unrounded": 0.504424778761062,
+        "expected": "0.504",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "IE",
+        "model": "OCVPSeq",
+        "kind": "corrected",
+        "field": "joint_accuracy",
+        "submitted": "30.00",
+        "unrounded": 30.0,
+        "expected": "30.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      }
+    ],
+    "displayed_gains": [
+      {
+        "task": "IE",
+        "model": "OCVPSeq",
+        "field": "pairacc",
+        "before": "37.67",
+        "after": "38.00",
+        "submitted": "+0.33",
+        "expected": "+0.33",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "OCVPSeq",
+        "field": "vsa",
+        "before": "50.00",
+        "after": "50.00",
+        "submitted": "0.00",
+        "expected": "0.00",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "OCVPSeq",
+        "field": "auc",
+        "before": "35.67",
+        "after": "35.64",
+        "submitted": "-0.03",
+        "expected": "-0.03",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "OCVPSeq",
+        "field": "joint_accuracy",
+        "before": "29.67",
+        "after": "30.00",
+        "submitted": "+0.33",
+        "expected": "+0.33",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "task": "IE",
+    "model_id": "savi_transformer",
+    "model": "SAVi",
+    "config_id": "R_savi_transformer_state_only_e0.25_a2.5_e3fa1f33e057",
+    "parameters": {
+      "eta": 0.25,
+      "alpha": 2.5,
+      "q": null,
+      "presence": null,
+      "mass": null,
+      "min_history": null
+    },
+    "mode": "state_only",
+    "diagnostic_only": false,
+    "paths": {
+      "baseline": {
+        "metrics.json": "results/IE/savi_transformer/baseline/metrics.json",
+        "errors.npz": "results/IE/savi_transformer/baseline/errors.npz",
+        "cases.jsonl": "results/IE/savi_transformer/baseline/cases.jsonl"
+      },
+      "corrected": {
+        "metrics.json": "results/IE/savi_transformer/corrected/metrics.json",
+        "errors.npz": "results/IE/savi_transformer/corrected/errors.npz",
+        "cases.jsonl": "results/IE/savi_transformer/corrected/cases.jsonl"
+      }
+    },
+    "displayed_values": [
+      {
+        "task": "IE",
+        "model": "SAVi",
+        "kind": "baseline",
+        "field": "pairacc",
+        "submitted": "36.00",
+        "unrounded": 36.0,
+        "expected": "36.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "SAVi",
+        "kind": "baseline",
+        "field": "vsa",
+        "submitted": "49.67",
+        "unrounded": 49.666666666666664,
+        "expected": "49.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "SAVi",
+        "kind": "baseline",
+        "field": "auc",
+        "submitted": "35.75",
+        "unrounded": 35.75333333333333,
+        "expected": "35.75",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "SAVi",
+        "kind": "baseline",
+        "field": "localization_mae",
+        "submitted": "0.449",
+        "unrounded": 0.4485981308411215,
+        "expected": "0.449",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "IE",
+        "model": "SAVi",
+        "kind": "baseline",
+        "field": "joint_accuracy",
+        "submitted": "28.33",
+        "unrounded": 28.333333333333332,
+        "expected": "28.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "SAVi",
+        "kind": "corrected",
+        "field": "pairacc",
+        "submitted": "36.00",
+        "unrounded": 36.0,
+        "expected": "36.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "SAVi",
+        "kind": "corrected",
+        "field": "vsa",
+        "submitted": "49.67",
+        "unrounded": 49.666666666666664,
+        "expected": "49.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "SAVi",
+        "kind": "corrected",
+        "field": "auc",
+        "submitted": "35.76",
+        "unrounded": 35.75555555555556,
+        "expected": "35.76",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "SAVi",
+        "kind": "corrected",
+        "field": "localization_mae",
+        "submitted": "0.449",
+        "unrounded": 0.4485981308411215,
+        "expected": "0.449",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "IE",
+        "model": "SAVi",
+        "kind": "corrected",
+        "field": "joint_accuracy",
+        "submitted": "28.33",
+        "unrounded": 28.333333333333332,
+        "expected": "28.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      }
+    ],
+    "displayed_gains": [
+      {
+        "task": "IE",
+        "model": "SAVi",
+        "field": "pairacc",
+        "before": "36.00",
+        "after": "36.00",
+        "submitted": "0.00",
+        "expected": "0.00",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "SAVi",
+        "field": "vsa",
+        "before": "49.67",
+        "after": "49.67",
+        "submitted": "0.00",
+        "expected": "0.00",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "SAVi",
+        "field": "auc",
+        "before": "35.75",
+        "after": "35.76",
+        "submitted": "+0.01",
+        "expected": "+0.01",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "SAVi",
+        "field": "joint_accuracy",
+        "before": "28.33",
+        "after": "28.33",
+        "submitted": "0.00",
+        "expected": "0.00",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "task": "IE",
+    "model_id": "dino_foresight",
+    "model": "DINO-Foresight",
+    "config_id": "dino_foresight_output_only_e0.015625_a1.0111111_d5e99a32fb50",
+    "parameters": {
+      "eta": 0.015625,
+      "alpha": 1.01111111,
+      "q": null,
+      "presence": null,
+      "mass": null,
+      "min_history": null
+    },
+    "mode": "output_only",
+    "diagnostic_only": true,
+    "paths": {
+      "baseline": {
+        "metrics.json": "results/IE/dino_foresight/baseline/metrics.json",
+        "errors.npz": "results/IE/dino_foresight/baseline/errors.npz",
+        "cases.jsonl": "results/IE/dino_foresight/baseline/cases.jsonl"
+      },
+      "corrected": {
+        "metrics.json": "results/IE/dino_foresight/corrected/metrics.json",
+        "errors.npz": "results/IE/dino_foresight/corrected/errors.npz",
+        "cases.jsonl": "results/IE/dino_foresight/corrected/cases.jsonl"
+      }
+    },
+    "displayed_values": [
+      {
+        "task": "IE",
+        "model": "DINO-Foresight",
+        "kind": "baseline",
+        "field": "pairacc",
+        "submitted": "34.33",
+        "unrounded": 34.333333333333336,
+        "expected": "34.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "DINO-Foresight",
+        "kind": "baseline",
+        "field": "vsa",
+        "submitted": "53.67",
+        "unrounded": 53.666666666666664,
+        "expected": "53.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "DINO-Foresight",
+        "kind": "baseline",
+        "field": "auc",
+        "submitted": "29.62",
+        "unrounded": 29.62111111111111,
+        "expected": "29.62",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "DINO-Foresight",
+        "kind": "baseline",
+        "field": "localization_mae",
+        "submitted": "0.525",
+        "unrounded": 0.5252525252525253,
+        "expected": "0.525",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "IE",
+        "model": "DINO-Foresight",
+        "kind": "baseline",
+        "field": "joint_accuracy",
+        "submitted": "23.33",
+        "unrounded": 23.333333333333332,
+        "expected": "23.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "DINO-Foresight",
+        "kind": "corrected",
+        "field": "pairacc",
+        "submitted": "34.33",
+        "unrounded": 34.333333333333336,
+        "expected": "34.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "DINO-Foresight",
+        "kind": "corrected",
+        "field": "vsa",
+        "submitted": "53.67",
+        "unrounded": 53.666666666666664,
+        "expected": "53.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "DINO-Foresight",
+        "kind": "corrected",
+        "field": "auc",
+        "submitted": "29.63",
+        "unrounded": 29.625555555555554,
+        "expected": "29.63",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "DINO-Foresight",
+        "kind": "corrected",
+        "field": "localization_mae",
+        "submitted": "0.525",
+        "unrounded": 0.5252525252525253,
+        "expected": "0.525",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "IE",
+        "model": "DINO-Foresight",
+        "kind": "corrected",
+        "field": "joint_accuracy",
+        "submitted": "23.33",
+        "unrounded": 23.333333333333332,
+        "expected": "23.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      }
+    ],
+    "displayed_gains": [
+      {
+        "task": "IE",
+        "model": "DINO-Foresight",
+        "field": "pairacc",
+        "before": "34.33",
+        "after": "34.33",
+        "submitted": "0.00",
+        "expected": "0.00",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "DINO-Foresight",
+        "field": "vsa",
+        "before": "53.67",
+        "after": "53.67",
+        "submitted": "0.00",
+        "expected": "0.00",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "DINO-Foresight",
+        "field": "auc",
+        "before": "29.62",
+        "after": "29.63",
+        "submitted": "+0.01",
+        "expected": "+0.01",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "DINO-Foresight",
+        "field": "joint_accuracy",
+        "before": "23.33",
+        "after": "23.33",
+        "submitted": "0.00",
+        "expected": "0.00",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "task": "IE",
+    "model_id": "vjepa2_vitg",
+    "model": "V-JEPA 2 (ViT-G)",
+    "config_id": "vjepa2_vitg_output_only_e0.99609375_a1.0222222_c06df496a3bf",
+    "parameters": {
+      "eta": 0.99609375,
+      "alpha": 1.02222222,
+      "q": null,
+      "presence": null,
+      "mass": null,
+      "min_history": null
+    },
+    "mode": "output_only",
+    "diagnostic_only": false,
+    "paths": {
+      "baseline": {
+        "metrics.json": "results/IE/vjepa2_vitg/baseline/metrics.json",
+        "errors.npz": "results/IE/vjepa2_vitg/baseline/errors.npz",
+        "cases.jsonl": "results/IE/vjepa2_vitg/baseline/cases.jsonl"
+      },
+      "corrected": {
+        "metrics.json": "results/IE/vjepa2_vitg/corrected/metrics.json",
+        "errors.npz": "results/IE/vjepa2_vitg/corrected/errors.npz",
+        "cases.jsonl": "results/IE/vjepa2_vitg/corrected/cases.jsonl"
+      }
+    },
+    "displayed_values": [
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "baseline",
+        "field": "pairacc",
+        "submitted": "59.67",
+        "unrounded": 59.66666666666667,
+        "expected": "59.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "baseline",
+        "field": "vsa",
+        "submitted": "69.00",
+        "unrounded": 69.0,
+        "expected": "69.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "baseline",
+        "field": "auc",
+        "submitted": "64.06",
+        "unrounded": 64.05888888888889,
+        "expected": "64.06",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "baseline",
+        "field": "localization_mae",
+        "submitted": "0.067",
+        "unrounded": 0.0670391061452514,
+        "expected": "0.067",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "baseline",
+        "field": "joint_accuracy",
+        "submitted": "57.67",
+        "unrounded": 57.666666666666664,
+        "expected": "57.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "corrected",
+        "field": "pairacc",
+        "submitted": "60.33",
+        "unrounded": 60.333333333333336,
+        "expected": "60.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "corrected",
+        "field": "vsa",
+        "submitted": "71.67",
+        "unrounded": 71.66666666666667,
+        "expected": "71.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "corrected",
+        "field": "auc",
+        "submitted": "64.07",
+        "unrounded": 64.07444444444444,
+        "expected": "64.07",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "corrected",
+        "field": "localization_mae",
+        "submitted": "0.044",
+        "unrounded": 0.04419889502762431,
+        "expected": "0.044",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-G)",
+        "kind": "corrected",
+        "field": "joint_accuracy",
+        "submitted": "59.00",
+        "unrounded": 59.0,
+        "expected": "59.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      }
+    ],
+    "displayed_gains": [
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-G)",
+        "field": "pairacc",
+        "before": "59.67",
+        "after": "60.33",
+        "submitted": "+0.66",
+        "expected": "+0.66",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-G)",
+        "field": "vsa",
+        "before": "69.00",
+        "after": "71.67",
+        "submitted": "+2.67",
+        "expected": "+2.67",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-G)",
+        "field": "auc",
+        "before": "64.06",
+        "after": "64.07",
+        "submitted": "+0.01",
+        "expected": "+0.01",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-G)",
+        "field": "joint_accuracy",
+        "before": "57.67",
+        "after": "59.00",
+        "submitted": "+1.33",
+        "expected": "+1.33",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "task": "IE",
+    "model_id": "vjepa2_vitl",
+    "model": "V-JEPA 2 (ViT-L)",
+    "config_id": "S_vjepa2_vitl_pre_final_block_block_6_e0.09375_a1.0971748_35e2082b60f5",
+    "parameters": {
+      "eta": 0.09375,
+      "alpha": 1.09717484,
+      "q": null,
+      "presence": null,
+      "mass": null,
+      "min_history": null,
+      "position": "block_6"
+    },
+    "mode": "pre_final_block",
+    "diagnostic_only": false,
+    "paths": {
+      "baseline": {
+        "metrics.json": "results/IE/vjepa2_vitl/baseline/metrics.json",
+        "errors.npz": "results/IE/vjepa2_vitl/baseline/errors.npz",
+        "cases.jsonl": "results/IE/vjepa2_vitl/baseline/cases.jsonl"
+      },
+      "corrected": {
+        "metrics.json": "results/IE/vjepa2_vitl/corrected/metrics.json",
+        "errors.npz": "results/IE/vjepa2_vitl/corrected/errors.npz",
+        "cases.jsonl": "results/IE/vjepa2_vitl/corrected/cases.jsonl"
+      }
+    },
+    "displayed_values": [
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "baseline",
+        "field": "pairacc",
+        "submitted": "46.00",
+        "unrounded": 46.0,
+        "expected": "46.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "baseline",
+        "field": "vsa",
+        "submitted": "55.67",
+        "unrounded": 55.666666666666664,
+        "expected": "55.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "baseline",
+        "field": "auc",
+        "submitted": "55.19",
+        "unrounded": 55.18666666666666,
+        "expected": "55.19",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "baseline",
+        "field": "localization_mae",
+        "submitted": "0.116",
+        "unrounded": 0.11594202898550725,
+        "expected": "0.116",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "baseline",
+        "field": "joint_accuracy",
+        "submitted": "43.33",
+        "unrounded": 43.333333333333336,
+        "expected": "43.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "corrected",
+        "field": "pairacc",
+        "submitted": "48.00",
+        "unrounded": 48.0,
+        "expected": "48.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "corrected",
+        "field": "vsa",
+        "submitted": "57.00",
+        "unrounded": 56.99999999999999,
+        "expected": "57.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "corrected",
+        "field": "auc",
+        "submitted": "55.31",
+        "unrounded": 55.30888888888889,
+        "expected": "55.31",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "corrected",
+        "field": "localization_mae",
+        "submitted": "0.125",
+        "unrounded": 0.125,
+        "expected": "0.125",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-L)",
+        "kind": "corrected",
+        "field": "joint_accuracy",
+        "submitted": "45.00",
+        "unrounded": 45.0,
+        "expected": "45.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      }
+    ],
+    "displayed_gains": [
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-L)",
+        "field": "pairacc",
+        "before": "46.00",
+        "after": "48.00",
+        "submitted": "+2.00",
+        "expected": "+2.00",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-L)",
+        "field": "vsa",
+        "before": "55.67",
+        "after": "57.00",
+        "submitted": "+1.33",
+        "expected": "+1.33",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-L)",
+        "field": "auc",
+        "before": "55.19",
+        "after": "55.31",
+        "submitted": "+0.12",
+        "expected": "+0.12",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "V-JEPA 2 (ViT-L)",
+        "field": "joint_accuracy",
+        "before": "43.33",
+        "after": "45.00",
+        "submitted": "+1.67",
+        "expected": "+1.67",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "task": "IE",
+    "model_id": "ddlp",
+    "model": "DDLP",
+    "config_id": "e100_q050_p050_v4_n3",
+    "parameters": {
+      "eta": 1.0,
+      "q": 0.5,
+      "presence": 0.5,
+      "mass": 4.0,
+      "min_history": 3,
+      "alpha": 1.0
+    },
+    "mode": "feedback",
+    "diagnostic_only": false,
+    "paths": {
+      "baseline": {
+        "metrics.json": "results/IE/ddlp/baseline/metrics.json",
+        "errors.npz": "results/IE/ddlp/baseline/errors.npz",
+        "cases.jsonl": "results/IE/ddlp/baseline/cases.jsonl"
+      },
+      "corrected": {
+        "metrics.json": "results/IE/ddlp/corrected/metrics.json",
+        "errors.npz": "results/IE/ddlp/corrected/errors.npz",
+        "cases.jsonl": "results/IE/ddlp/corrected/cases.jsonl"
+      }
+    },
+    "displayed_values": [
+      {
+        "task": "IE",
+        "model": "DDLP",
+        "kind": "baseline",
+        "field": "pairacc",
+        "submitted": "35.33",
+        "unrounded": 35.333333333333336,
+        "expected": "35.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "DDLP",
+        "kind": "baseline",
+        "field": "vsa",
+        "submitted": "52.67",
+        "unrounded": 52.666666666666664,
+        "expected": "52.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "DDLP",
+        "kind": "baseline",
+        "field": "auc",
+        "submitted": "30.64",
+        "unrounded": 30.635555555555555,
+        "expected": "30.64",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "DDLP",
+        "kind": "baseline",
+        "field": "localization_mae",
+        "submitted": "0.346",
+        "unrounded": 0.34615384615384615,
+        "expected": "0.346",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "IE",
+        "model": "DDLP",
+        "kind": "baseline",
+        "field": "joint_accuracy",
+        "submitted": "32.00",
+        "unrounded": 32.0,
+        "expected": "32.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "DDLP",
+        "kind": "corrected",
+        "field": "pairacc",
+        "submitted": "37.33",
+        "unrounded": 37.333333333333336,
+        "expected": "37.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "DDLP",
+        "kind": "corrected",
+        "field": "vsa",
+        "submitted": "53.33",
+        "unrounded": 53.333333333333336,
+        "expected": "53.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "DDLP",
+        "kind": "corrected",
+        "field": "auc",
+        "submitted": "30.93",
+        "unrounded": 30.931111111111107,
+        "expected": "30.93",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "DDLP",
+        "kind": "corrected",
+        "field": "localization_mae",
+        "submitted": "0.373",
+        "unrounded": 0.37272727272727274,
+        "expected": "0.373",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "IE",
+        "model": "DDLP",
+        "kind": "corrected",
+        "field": "joint_accuracy",
+        "submitted": "33.33",
+        "unrounded": 33.33333333333333,
+        "expected": "33.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      }
+    ],
+    "displayed_gains": [
+      {
+        "task": "IE",
+        "model": "DDLP",
+        "field": "pairacc",
+        "before": "35.33",
+        "after": "37.33",
+        "submitted": "+2.00",
+        "expected": "+2.00",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "DDLP",
+        "field": "vsa",
+        "before": "52.67",
+        "after": "53.33",
+        "submitted": "+0.66",
+        "expected": "+0.66",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "DDLP",
+        "field": "auc",
+        "before": "30.64",
+        "after": "30.93",
+        "submitted": "+0.29",
+        "expected": "+0.29",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "DDLP",
+        "field": "joint_accuracy",
+        "before": "32.00",
+        "after": "33.33",
+        "submitted": "+1.33",
+        "expected": "+1.33",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "task": "IE",
+    "model_id": "slotformer",
+    "model": "SlotFormer",
+    "config_id": "slotformer_output_only_e0.74088542_a1.2375_75232b6d4579",
+    "parameters": {
+      "eta": 0.74088542,
+      "alpha": 1.2375,
+      "q": null,
+      "presence": null,
+      "mass": null,
+      "min_history": null
+    },
+    "mode": "output_only",
+    "diagnostic_only": false,
+    "paths": {
+      "baseline": {
+        "metrics.json": "results/IE/slotformer/baseline/metrics.json",
+        "errors.npz": "results/IE/slotformer/baseline/errors.npz",
+        "cases.jsonl": "results/IE/slotformer/baseline/cases.jsonl"
+      },
+      "corrected": {
+        "metrics.json": "results/IE/slotformer/corrected/metrics.json",
+        "errors.npz": "results/IE/slotformer/corrected/errors.npz",
+        "cases.jsonl": "results/IE/slotformer/corrected/cases.jsonl"
+      }
+    },
+    "displayed_values": [
+      {
+        "task": "IE",
+        "model": "SlotFormer",
+        "kind": "baseline",
+        "field": "pairacc",
+        "submitted": "54.33",
+        "unrounded": 54.333333333333336,
+        "expected": "54.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "SlotFormer",
+        "kind": "baseline",
+        "field": "vsa",
+        "submitted": "59.33",
+        "unrounded": 59.333333333333336,
+        "expected": "59.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "SlotFormer",
+        "kind": "baseline",
+        "field": "auc",
+        "submitted": "52.42",
+        "unrounded": 52.418888888888894,
+        "expected": "52.42",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "SlotFormer",
+        "kind": "baseline",
+        "field": "localization_mae",
+        "submitted": "0.562",
+        "unrounded": 0.5617283950617284,
+        "expected": "0.562",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "IE",
+        "model": "SlotFormer",
+        "kind": "baseline",
+        "field": "joint_accuracy",
+        "submitted": "42.00",
+        "unrounded": 42.0,
+        "expected": "42.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "SlotFormer",
+        "kind": "corrected",
+        "field": "pairacc",
+        "submitted": "55.00",
+        "unrounded": 55.00000000000001,
+        "expected": "55.00",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "SlotFormer",
+        "kind": "corrected",
+        "field": "vsa",
+        "submitted": "58.67",
+        "unrounded": 58.666666666666664,
+        "expected": "58.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "SlotFormer",
+        "kind": "corrected",
+        "field": "auc",
+        "submitted": "49.79",
+        "unrounded": 49.79,
+        "expected": "49.79",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "SlotFormer",
+        "kind": "corrected",
+        "field": "localization_mae",
+        "submitted": "0.552",
+        "unrounded": 0.5515151515151515,
+        "expected": "0.552",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "IE",
+        "model": "SlotFormer",
+        "kind": "corrected",
+        "field": "joint_accuracy",
+        "submitted": "41.67",
+        "unrounded": 41.66666666666667,
+        "expected": "41.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      }
+    ],
+    "displayed_gains": [
+      {
+        "task": "IE",
+        "model": "SlotFormer",
+        "field": "pairacc",
+        "before": "54.33",
+        "after": "55.00",
+        "submitted": "+0.67",
+        "expected": "+0.67",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "SlotFormer",
+        "field": "vsa",
+        "before": "59.33",
+        "after": "58.67",
+        "submitted": "-0.66",
+        "expected": "-0.66",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "SlotFormer",
+        "field": "auc",
+        "before": "52.42",
+        "after": "49.79",
+        "submitted": "-2.63",
+        "expected": "-2.63",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "SlotFormer",
+        "field": "joint_accuracy",
+        "before": "42.00",
+        "after": "41.67",
+        "submitted": "-0.33",
+        "expected": "-0.33",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "task": "IE",
+    "model_id": "gswm",
+    "model": "G-SWM",
+    "config_id": "e100_q050_p050_v4_n2",
+    "parameters": {
+      "eta": 1.0,
+      "q": 0.5,
+      "presence": 0.5,
+      "mass": 4.0,
+      "min_history": 2,
+      "alpha": 1.0
+    },
+    "mode": "feedback",
+    "diagnostic_only": false,
+    "paths": {
+      "baseline": {
+        "metrics.json": "results/IE/gswm/baseline/metrics.json",
+        "errors.npz": "results/IE/gswm/baseline/errors.npz",
+        "cases.jsonl": "results/IE/gswm/baseline/cases.jsonl"
+      },
+      "corrected": {
+        "metrics.json": "results/IE/gswm/corrected/metrics.json",
+        "errors.npz": "results/IE/gswm/corrected/errors.npz",
+        "cases.jsonl": "results/IE/gswm/corrected/cases.jsonl"
+      }
+    },
+    "displayed_values": [
+      {
+        "task": "IE",
+        "model": "G-SWM",
+        "kind": "baseline",
+        "field": "pairacc",
+        "submitted": "57.33",
+        "unrounded": 57.333333333333336,
+        "expected": "57.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "G-SWM",
+        "kind": "baseline",
+        "field": "vsa",
+        "submitted": "54.67",
+        "unrounded": 54.666666666666664,
+        "expected": "54.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "G-SWM",
+        "kind": "baseline",
+        "field": "auc",
+        "submitted": "57.12",
+        "unrounded": 57.12222222222222,
+        "expected": "57.12",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "G-SWM",
+        "kind": "baseline",
+        "field": "localization_mae",
+        "submitted": "0.407",
+        "unrounded": 0.40718562874251496,
+        "expected": "0.407",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "IE",
+        "model": "G-SWM",
+        "kind": "baseline",
+        "field": "joint_accuracy",
+        "submitted": "44.67",
+        "unrounded": 44.666666666666664,
+        "expected": "44.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "G-SWM",
+        "kind": "corrected",
+        "field": "pairacc",
+        "submitted": "58.67",
+        "unrounded": 58.666666666666664,
+        "expected": "58.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "G-SWM",
+        "kind": "corrected",
+        "field": "vsa",
+        "submitted": "55.33",
+        "unrounded": 55.333333333333336,
+        "expected": "55.33",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "G-SWM",
+        "kind": "corrected",
+        "field": "auc",
+        "submitted": "57.51",
+        "unrounded": 57.51111111111111,
+        "expected": "57.51",
+        "matches": true,
+        "matches_at_three_decimals": null
+      },
+      {
+        "task": "IE",
+        "model": "G-SWM",
+        "kind": "corrected",
+        "field": "localization_mae",
+        "submitted": "0.410",
+        "unrounded": 0.41040462427745666,
+        "expected": "0.410",
+        "matches": true,
+        "matches_at_three_decimals": true
+      },
+      {
+        "task": "IE",
+        "model": "G-SWM",
+        "kind": "corrected",
+        "field": "joint_accuracy",
+        "submitted": "45.67",
+        "unrounded": 45.666666666666664,
+        "expected": "45.67",
+        "matches": true,
+        "matches_at_three_decimals": null
+      }
+    ],
+    "displayed_gains": [
+      {
+        "task": "IE",
+        "model": "G-SWM",
+        "field": "pairacc",
+        "before": "57.33",
+        "after": "58.67",
+        "submitted": "+1.34",
+        "expected": "+1.34",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "G-SWM",
+        "field": "vsa",
+        "before": "54.67",
+        "after": "55.33",
+        "submitted": "+0.66",
+        "expected": "+0.66",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "G-SWM",
+        "field": "auc",
+        "before": "57.12",
+        "after": "57.51",
+        "submitted": "+0.39",
+        "expected": "+0.39",
+        "matches": true
+      },
+      {
+        "task": "IE",
+        "model": "G-SWM",
+        "field": "joint_accuracy",
+        "before": "44.67",
+        "after": "45.67",
+        "submitted": "+1.00",
+        "expected": "+1.00",
+        "matches": true
+      }
+    ]
+  }
+]

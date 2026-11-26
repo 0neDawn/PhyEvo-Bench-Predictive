@@ -1,0 +1,12 @@
+{
+  "fresh_source_extraction_passed": true,
+  "archived_metric_values_verified": 180,
+  "original_assets_restored": [
+    "data_sp",
+    "data_ie",
+    "weight_00"
+  ],
+  "restored_pair_pixel_hashes_verified": 600,
+  "data_inputs_match_all_models": true,
+  "no_model_calls_in_package_test": true
+}

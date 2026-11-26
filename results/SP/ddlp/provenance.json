@@ -1,0 +1,276 @@
+{
+  "model": "ddlp",
+  "config_id": "e050_q025_p075_v4_n2",
+  "parameters": {
+    "eta": 0.5,
+    "q": 0.25,
+    "presence": 0.75,
+    "mass": 4.0,
+    "min_history": 2,
+    "alpha": 1.0
+  },
+  "mode": "feedback",
+  "origin": "prior_M_radius1",
+  "position": null,
+  "eligible_for_selection": true,
+  "eligible_tasks": [
+    "sp",
+    "ie"
+  ],
+  "full600_native_validated": null,
+  "source_row_index": 17,
+  "group": "g0017_ddlp",
+  "group_index": 0,
+  "task": "sp",
+  "source_report": "$REPO/predictive_tracks/ppr_buffer_read_20261107_ae/delivery_20261107_001/report.json",
+  "source_report_sha256": "2546e8f27b0a77a46d9760ac5c720bc32949a588cc18de8f4d3e29268e5237e4",
+  "source_row": {
+    "config_id": "e050_q025_p075_v4_n2",
+    "parameters": {
+      "eta": 0.5,
+      "q": 0.25,
+      "presence": 0.75,
+      "mass": 4.0,
+      "min_history": 2,
+      "alpha": 1.0
+    },
+    "complete": true,
+    "completed_pairs": 600,
+    "reused": false,
+    "metrics": {
+      "sp": {
+        "native_baseline": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.61,
+            "tie_rate": 0.0,
+            "auc": 0.6473444444444444,
+            "detection_coverage": 0.65,
+            "localized_and_correct_fraction": 0.6066666666666667,
+            "localization_mae": 0.13736263736263737,
+            "localization_mae_denominator": 182,
+            "joint_hit": {
+              "1": 0.5833333333333334
+            }
+          },
+          "by_type": {
+            "identity_change": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.68,
+              "tie_rate": 0.0,
+              "auc": 0.7084,
+              "detection_coverage": 0.7,
+              "localized_and_correct_fraction": 0.68,
+              "localization_mae": 0.058823529411764705,
+              "localization_mae_denominator": 68,
+              "joint_hit": {
+                "1": 0.68
+              }
+            },
+            "occluded_wrong_reappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.4,
+              "tie_rate": 0.0,
+              "auc": 0.3492,
+              "detection_coverage": 0.5,
+              "localized_and_correct_fraction": 0.39,
+              "localization_mae": 0.46153846153846156,
+              "localization_mae_denominator": 39,
+              "joint_hit": {
+                "1": 0.33
+              }
+            },
+            "sudden_disappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.75,
+              "tie_rate": 0.0,
+              "auc": 0.8409,
+              "detection_coverage": 0.75,
+              "localized_and_correct_fraction": 0.75,
+              "localization_mae": 0.04,
+              "localization_mae_denominator": 75,
+              "joint_hit": {
+                "1": 0.74
+              }
+            }
+          }
+        },
+        "corrected": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.62,
+            "tie_rate": 0.0,
+            "auc": 0.6479111111111111,
+            "detection_coverage": 0.6433333333333333,
+            "localized_and_correct_fraction": 0.6166666666666667,
+            "localization_mae": 0.16216216216216217,
+            "localization_mae_denominator": 185,
+            "joint_hit": {
+              "1": 0.5866666666666667
+            }
+          },
+          "by_type": {
+            "identity_change": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.69,
+              "tie_rate": 0.0,
+              "auc": 0.7131,
+              "detection_coverage": 0.7,
+              "localized_and_correct_fraction": 0.69,
+              "localization_mae": 0.057971014492753624,
+              "localization_mae_denominator": 69,
+              "joint_hit": {
+                "1": 0.69
+              }
+            },
+            "occluded_wrong_reappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.42,
+              "tie_rate": 0.0,
+              "auc": 0.344,
+              "detection_coverage": 0.48,
+              "localized_and_correct_fraction": 0.41,
+              "localization_mae": 0.5609756097560976,
+              "localization_mae_denominator": 41,
+              "joint_hit": {
+                "1": 0.33
+              }
+            },
+            "sudden_disappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.75,
+              "tie_rate": 0.0,
+              "auc": 0.8457,
+              "detection_coverage": 0.75,
+              "localized_and_correct_fraction": 0.75,
+              "localization_mae": 0.04,
+              "localization_mae_denominator": 75,
+              "joint_hit": {
+                "1": 0.74
+              }
+            }
+          }
+        }
+      },
+      "ie": {
+        "native_baseline": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.35333333333333333,
+            "tie_rate": 0.0,
+            "auc": 0.30635555555555555,
+            "detection_coverage": 0.49333333333333335,
+            "localized_and_correct_fraction": 0.3466666666666667,
+            "localization_mae": 0.34615384615384615,
+            "localization_mae_denominator": 104,
+            "joint_hit": {
+              "1": 0.31333333333333335
+            }
+          },
+          "by_type": {
+            "motion_anomaly": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.52,
+              "tie_rate": 0.0,
+              "auc": 0.5008,
+              "detection_coverage": 0.66,
+              "localized_and_correct_fraction": 0.52,
+              "localization_mae": 0.25,
+              "localization_mae_denominator": 52,
+              "joint_hit": {
+                "1": 0.49
+              }
+            },
+            "penetration": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.33,
+              "tie_rate": 0.0,
+              "auc": 0.3321,
+              "detection_coverage": 0.56,
+              "localized_and_correct_fraction": 0.33,
+              "localization_mae": 0.24242424242424243,
+              "localization_mae_denominator": 33,
+              "joint_hit": {
+                "1": 0.31
+              }
+            },
+            "contact_response": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.21,
+              "tie_rate": 0.0,
+              "auc": 0.1443,
+              "detection_coverage": 0.26,
+              "localized_and_correct_fraction": 0.19,
+              "localization_mae": 0.7894736842105263,
+              "localization_mae_denominator": 19,
+              "joint_hit": {
+                "1": 0.14
+              }
+            }
+          }
+        },
+        "corrected": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.36666666666666664,
+            "tie_rate": 0.0,
+            "auc": 0.30666666666666664,
+            "detection_coverage": 0.49,
+            "localized_and_correct_fraction": 0.36,
+            "localization_mae": 0.35185185185185186,
+            "localization_mae_denominator": 108,
+            "joint_hit": {
+              "1": 0.32666666666666666
+            }
+          },
+          "by_type": {
+            "motion_anomaly": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.55,
+              "tie_rate": 0.0,
+              "auc": 0.5001,
+              "detection_coverage": 0.65,
+              "localized_and_correct_fraction": 0.55,
+              "localization_mae": 0.2545454545454545,
+              "localization_mae_denominator": 55,
+              "joint_hit": {
+                "1": 0.52
+              }
+            },
+            "penetration": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.34,
+              "tie_rate": 0.0,
+              "auc": 0.3342,
+              "detection_coverage": 0.56,
+              "localized_and_correct_fraction": 0.34,
+              "localization_mae": 0.2647058823529412,
+              "localization_mae_denominator": 34,
+              "joint_hit": {
+                "1": 0.32
+              }
+            },
+            "contact_response": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.21,
+              "tie_rate": 0.0,
+              "auc": 0.1429,
+              "detection_coverage": 0.26,
+              "localized_and_correct_fraction": 0.19,
+              "localization_mae": 0.7894736842105263,
+              "localization_mae_denominator": 19,
+              "joint_hit": {
+                "1": 0.14
+              }
+            }
+          }
+        }
+      }
+    },
+    "model": "ddlp",
+    "mode": "feedback",
+    "origin": "prior_M_radius1",
+    "eligible_for_selection": true
+  },
+  "selection_policy": "Replace old JointHit with new Joint accuracy; retain tie-breaks PairAcc, AUC, lower original conditional MAE, native on exact tie, then configuration ID"
+}

@@ -1,0 +1,16 @@
+{
+  "task": "SP",
+  "model": "OCVPSeq",
+  "model_id": "ocvp_seq",
+  "config_id": "ocvp_seq_output_only_a1250000_e1000000",
+  "mode": "output_only",
+  "parameters": {
+    "eta": 1.0,
+    "alpha": 1.25,
+    "q": null,
+    "presence": null,
+    "mass": null,
+    "min_history": null
+  },
+  "diagnostic_only": false
+}

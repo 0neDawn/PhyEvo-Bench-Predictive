@@ -1,0 +1,288 @@
+{
+  "model": "dino_foresight",
+  "config_id": "dino_foresight_output_only_e1_a1.25_096b26279fcd",
+  "parameters": {
+    "eta": 1.0,
+    "alpha": 1.25,
+    "q": null,
+    "presence": null,
+    "mass": null,
+    "min_history": null
+  },
+  "mode": "output_only",
+  "origin": "O_new_parameter_point",
+  "position": null,
+  "eligible_for_selection": true,
+  "eligible_tasks": [
+    "sp",
+    "ie"
+  ],
+  "full600_native_validated": null,
+  "source_row_index": 118,
+  "group": "g0975_dino_foresight",
+  "group_index": 59,
+  "task": "sp",
+  "source_report": "$REPO/predictive_tracks/ppr_buffer_read_20261107_ae/delivery_20261107_001/report.json",
+  "source_report_sha256": "2546e8f27b0a77a46d9760ac5c720bc32949a588cc18de8f4d3e29268e5237e4",
+  "source_row": {
+    "model": "dino_foresight",
+    "mode": "output_only",
+    "eta": 1.0,
+    "alpha": 1.25,
+    "quality": null,
+    "target_task": null,
+    "config_id": "dino_foresight_output_only_e1_a1.25_096b26279fcd",
+    "previous_parameter_point": false,
+    "parameters": {
+      "eta": 1.0,
+      "alpha": 1.25,
+      "q": null,
+      "presence": null,
+      "mass": null,
+      "min_history": null
+    },
+    "metrics": {
+      "sp": {
+        "native_baseline": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.7666666666666667,
+            "tie_rate": 0.0,
+            "auc": 0.8895555555555555,
+            "detection_coverage": 0.8166666666666667,
+            "localized_and_correct_fraction": 0.7666666666666667,
+            "localization_mae": 0.004347826086956522,
+            "localization_mae_denominator": 230,
+            "joint_hit": {
+              "1": 0.7666666666666667
+            }
+          },
+          "by_type": {
+            "identity_change": {
+              "num_pairs": 100,
+              "paired_accuracy": 1.0,
+              "tie_rate": 0.0,
+              "auc": 1.0,
+              "detection_coverage": 1.0,
+              "localized_and_correct_fraction": 1.0,
+              "localization_mae": 0.0,
+              "localization_mae_denominator": 100,
+              "joint_hit": {
+                "1": 1.0
+              }
+            },
+            "occluded_wrong_reappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.3,
+              "tie_rate": 0.0,
+              "auc": 0.2124,
+              "detection_coverage": 0.45,
+              "localized_and_correct_fraction": 0.3,
+              "localization_mae": 0.03333333333333333,
+              "localization_mae_denominator": 30,
+              "joint_hit": {
+                "1": 0.3
+              }
+            },
+            "sudden_disappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 1.0,
+              "tie_rate": 0.0,
+              "auc": 1.0,
+              "detection_coverage": 1.0,
+              "localized_and_correct_fraction": 1.0,
+              "localization_mae": 0.0,
+              "localization_mae_denominator": 100,
+              "joint_hit": {
+                "1": 1.0
+              }
+            }
+          }
+        },
+        "corrected": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.7666666666666667,
+            "tie_rate": 0.0,
+            "auc": 0.8941333333333333,
+            "detection_coverage": 0.8166666666666667,
+            "localized_and_correct_fraction": 0.7666666666666667,
+            "localization_mae": 0.0,
+            "localization_mae_denominator": 230,
+            "joint_hit": {
+              "1": 0.7666666666666667
+            }
+          },
+          "by_type": {
+            "identity_change": {
+              "num_pairs": 100,
+              "paired_accuracy": 1.0,
+              "tie_rate": 0.0,
+              "auc": 1.0,
+              "detection_coverage": 1.0,
+              "localized_and_correct_fraction": 1.0,
+              "localization_mae": 0.0,
+              "localization_mae_denominator": 100,
+              "joint_hit": {
+                "1": 1.0
+              }
+            },
+            "occluded_wrong_reappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.3,
+              "tie_rate": 0.0,
+              "auc": 0.2186,
+              "detection_coverage": 0.45,
+              "localized_and_correct_fraction": 0.3,
+              "localization_mae": 0.0,
+              "localization_mae_denominator": 30,
+              "joint_hit": {
+                "1": 0.3
+              }
+            },
+            "sudden_disappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 1.0,
+              "tie_rate": 0.0,
+              "auc": 1.0,
+              "detection_coverage": 1.0,
+              "localized_and_correct_fraction": 1.0,
+              "localization_mae": 0.0,
+              "localization_mae_denominator": 100,
+              "joint_hit": {
+                "1": 1.0
+              }
+            }
+          }
+        }
+      },
+      "ie": {
+        "native_baseline": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.3433333333333333,
+            "tie_rate": 0.0,
+            "auc": 0.2962111111111111,
+            "detection_coverage": 0.5733333333333334,
+            "localized_and_correct_fraction": 0.33,
+            "localization_mae": 0.5252525252525253,
+            "localization_mae_denominator": 99,
+            "joint_hit": {
+              "1": 0.2833333333333333
+            }
+          },
+          "by_type": {
+            "motion_anomaly": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.7,
+              "tie_rate": 0.0,
+              "auc": 0.782,
+              "detection_coverage": 0.67,
+              "localized_and_correct_fraction": 0.66,
+              "localization_mae": 0.5151515151515151,
+              "localization_mae_denominator": 66,
+              "joint_hit": {
+                "1": 0.58
+              }
+            },
+            "penetration": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.18,
+              "tie_rate": 0.0,
+              "auc": 0.132,
+              "detection_coverage": 0.76,
+              "localized_and_correct_fraction": 0.18,
+              "localization_mae": 0.0,
+              "localization_mae_denominator": 18,
+              "joint_hit": {
+                "1": 0.18
+              }
+            },
+            "contact_response": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.15,
+              "tie_rate": 0.0,
+              "auc": 0.0591,
+              "detection_coverage": 0.29,
+              "localized_and_correct_fraction": 0.15,
+              "localization_mae": 1.2,
+              "localization_mae_denominator": 15,
+              "joint_hit": {
+                "1": 0.09
+              }
+            }
+          }
+        },
+        "corrected": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.34,
+            "tie_rate": 0.0,
+            "auc": 0.29364444444444443,
+            "detection_coverage": 0.5666666666666667,
+            "localized_and_correct_fraction": 0.32666666666666666,
+            "localization_mae": 0.5408163265306123,
+            "localization_mae_denominator": 98,
+            "joint_hit": {
+              "1": 0.27666666666666667
+            }
+          },
+          "by_type": {
+            "motion_anomaly": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.7,
+              "tie_rate": 0.0,
+              "auc": 0.7796,
+              "detection_coverage": 0.66,
+              "localized_and_correct_fraction": 0.66,
+              "localization_mae": 0.5151515151515151,
+              "localization_mae_denominator": 66,
+              "joint_hit": {
+                "1": 0.58
+              }
+            },
+            "penetration": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.18,
+              "tie_rate": 0.0,
+              "auc": 0.131,
+              "detection_coverage": 0.76,
+              "localized_and_correct_fraction": 0.18,
+              "localization_mae": 0.0,
+              "localization_mae_denominator": 18,
+              "joint_hit": {
+                "1": 0.18
+              }
+            },
+            "contact_response": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.14,
+              "tie_rate": 0.0,
+              "auc": 0.0552,
+              "detection_coverage": 0.28,
+              "localized_and_correct_fraction": 0.14,
+              "localization_mae": 1.3571428571428572,
+              "localization_mae_denominator": 14,
+              "joint_hit": {
+                "1": 0.07
+              }
+            }
+          }
+        }
+      }
+    },
+    "complete": true,
+    "completed_pairs": 600,
+    "directory": "$REPO/predictive_tracks/ppr_eta_radius_20261104_o/runs/dino_foresight/dino_foresight_output_only_e1_a1.25_096b26279fcd",
+    "source_directory": "$REPO/predictive_tracks/ppr_eta_radius_20261104_o/runs/dino_foresight/dino_foresight_output_only_e1_a1.25_096b26279fcd",
+    "compact_case_source": "$REPO/predictive_tracks/ppr_eta_radius_20261104_o/cache/dino_foresight/pairs",
+    "summary_sha256": "9ab4dda200e83e25290cbb64a586ffae5f5bee41a532ab8a5a7e5c6d265470a6",
+    "origin": "O_new_parameter_point",
+    "eligible_for_selection": true,
+    "eligible_tasks": [
+      "sp",
+      "ie"
+    ]
+  },
+  "selection_policy": "Replace old JointHit with new Joint accuracy; retain tie-breaks PairAcc, AUC, lower original conditional MAE, native on exact tie, then configuration ID"
+}

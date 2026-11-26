@@ -1,0 +1,63 @@
+[
+  {
+    "directory": "ddlp",
+    "repository": "https://github.com/taldatech/ddlp",
+    "revision": "5686275800ee58d9832714af5ed8363c4fb606bc",
+    "license_note": "MIT"
+  },
+  {
+    "directory": "VideoMAEv2",
+    "repository": "https://github.com/OpenGVLab/VideoMAEv2",
+    "revision": "29eab1e8a588d1b3ec0cdec7b03a86cca491b74b",
+    "license_note": "MIT"
+  },
+  {
+    "directory": "third_party/SlotFormer",
+    "repository": "https://github.com/pairlab/SlotFormer",
+    "revision": "10a6d9b7bc05ef2397ce2586da3fc0212f8c47aa",
+    "license_note": "MIT"
+  },
+  {
+    "directory": "third_party/G-SWM",
+    "repository": "https://github.com/zhixuan-lin/G-SWM",
+    "revision": "1423553c30e4340cbe2278639316941cfd16acb6",
+    "license_note": "GPL-3.0; see included LICENSE"
+  },
+  {
+    "directory": "third_party/DINO-Foresight",
+    "repository": "https://github.com/Sta8is/DINO-Foresight",
+    "revision": "d98f765d2b743ec90fb38bc657a39c07c7ca4ab0",
+    "license_note": "MIT"
+  },
+  {
+    "directory": "third_party/dinov2",
+    "repository": "https://github.com/facebookresearch/dinov2",
+    "revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+    "license_note": "Apache-2.0; see included LICENSE"
+  },
+  {
+    "directory": "jepa-intuitive-physics",
+    "repository": "https://github.com/facebookresearch/jepa-intuitive-physics",
+    "revision": "302a2e821d908b4a8667e0c0e48fe733e43c9156",
+    "license_note": "See included LICENSE"
+  },
+  {
+    "directory": "third_party/OCVP",
+    "repository": "https://github.com/AIS-Bonn/OCVP-object-centric-video-prediction",
+    "revision": "01d0d57adc48efca1e57685a14c96a43cac4be5e",
+    "license_note": "No LICENSE found in the pinned checkout; source not redistributed here"
+  },
+  {
+    "directory": "third_party/nerv",
+    "repository": "https://github.com/pairlab/nerv",
+    "revision": "5709625763c424a8b81b06c8cc2724d6454e688c",
+    "license_note": "See included LICENSE"
+  },
+  {
+    "directory": "third_party/vjepa2",
+    "repository": "https://github.com/facebookresearch/vjepa2",
+    "revision": null,
+    "license_note": "MIT source code; checkpoint terms are separate",
+    "provenance": "Packaging snapshot with per-file SHA-256; predictor.py matches historical checksum."
+  }
+]

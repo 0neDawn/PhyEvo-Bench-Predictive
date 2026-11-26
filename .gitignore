@@ -1,0 +1,29 @@
+# Private local interpreter mapping and runtime outputs
+*.local.json
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.pytest_cache/
+runs/
+recomputed/
+*.log
+*.partial
+*.restore-partial
+# Original datasets and external checkpoints are distributed separately
+data/anomaly_3d_state2
+data/process_obj3d
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.part[0-9][0-9][0-9]
+# OCVP is fetched from a checksum-pinned upstream revision
+third_party/OCVP/**/*.py
+third_party/OCVP/**/__pycache__/
+# Interpreter-specific dependencies are installed locally
+third_party/dino_foresight_python_deps
+third_party/slotformer_python_deps
+.venv/
+venv/
+.DS_Store

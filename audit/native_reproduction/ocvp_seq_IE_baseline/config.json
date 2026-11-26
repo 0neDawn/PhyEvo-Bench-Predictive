@@ -1,0 +1,16 @@
+{
+  "task": "IE",
+  "model": "OCVPSeq",
+  "model_id": "ocvp_seq",
+  "config_id": "AC_ocvp_seq_state_only_e0.4765625_a1.984375_9a8d7d5a5530",
+  "mode": "state_only",
+  "parameters": {
+    "eta": 0.4765625,
+    "alpha": 1.984375,
+    "q": null,
+    "presence": null,
+    "mass": null,
+    "min_history": null
+  },
+  "diagnostic_only": false
+}

@@ -1,0 +1,17 @@
+{
+  "task": "SP",
+  "model": "V-JEPA 2 (ViT-L)",
+  "model_id": "vjepa2_vitl",
+  "config_id": "S_vjepa2_vitl_pre_final_block_block_9_e0.2125_a5.4041311_ff08dcf9091b",
+  "mode": "pre_final_block",
+  "parameters": {
+    "eta": 0.2125,
+    "alpha": 5.4041311,
+    "q": null,
+    "presence": null,
+    "mass": null,
+    "min_history": null,
+    "position": "block_9"
+  },
+  "diagnostic_only": false
+}

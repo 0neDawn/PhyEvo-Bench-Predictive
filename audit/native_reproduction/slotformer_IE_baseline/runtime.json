@@ -1,0 +1,12 @@
+{
+  "python": "3.10.19 (main, Oct 21 2025, 16:43:05) [GCC 11.2.0]",
+  "torch": "2.6.0+cu124",
+  "cuda": "12.4",
+  "cudnn": 90100,
+  "numpy": "2.2.6",
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "torch_threads": 2,
+  "seed": 0,
+  "memory_fraction": 0.45,
+  "entrypoint_sha256": "7d36cd718171ecc78d6992bf2c3700771886ee4de56ecdfa285767d698e27baa"
+}

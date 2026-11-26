@@ -1,0 +1,16 @@
+{
+  "task": "IE",
+  "model": "DINO-Foresight",
+  "model_id": "dino_foresight",
+  "config_id": "dino_foresight_output_only_e0.015625_a1.0111111_d5e99a32fb50",
+  "mode": "output_only",
+  "parameters": {
+    "eta": 0.015625,
+    "alpha": 1.01111111,
+    "q": null,
+    "presence": null,
+    "mass": null,
+    "min_history": null
+  },
+  "diagnostic_only": true
+}

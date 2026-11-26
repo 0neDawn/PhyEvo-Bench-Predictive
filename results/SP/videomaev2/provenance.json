@@ -1,0 +1,42 @@
+{
+  "task": "sp",
+  "model": "videomaev2",
+  "config_id": "S_videomaev2_pre_final_block_block_0_e0.25_a2.3407317_9bd4da81baef",
+  "job": {
+    "model": "videomaev2",
+    "mode": "pre_final_block",
+    "eta": 0.25,
+    "alpha": 2.34073174,
+    "quality": null,
+    "target_task": null,
+    "position": "block_0",
+    "config_id": "S_videomaev2_pre_final_block_block_0_e0.25_a2.3407317_9bd4da81baef",
+    "proposal": "label-free native activation scale; explicit original placement"
+  },
+  "parameters": {
+    "eta": 0.25,
+    "alpha": 2.34073174,
+    "q": null,
+    "presence": null,
+    "mass": null,
+    "min_history": null,
+    "position": "block_0"
+  },
+  "native_run": "$REPO/predictive_tracks/videomae_native_verify_20261110_001/runs/videomaev2/S_videomaev2_pre_final_block_block_0_e0.25_a2.3407317_9bd4da81baef",
+  "cases": 300,
+  "full_native_cases": 600,
+  "insertion": "forward pre-hook before decoder.block_0",
+  "block_index_is_zero_based": true,
+  "representation": "512-channel spatial mean across 256 tokens at each two-frame block",
+  "history_frames": 8,
+  "history_blocks": 4,
+  "future_frames": 6,
+  "future_blocks": 3,
+  "correction": "One correction of the three future block means; same offset broadcast to all 256 tokens.",
+  "target_branch_corrected": false,
+  "historical_tokens_modified": false,
+  "added_forwards_per_forecast": 0,
+  "baseline": "Matched original uncorrected outputs from the same native adapter and dataset.",
+  "selection": "Post-hoc same-data selection targeting 1--2 pp in PairAcc and the new joint metric; not a maximum-performance claim.",
+  "actual_operator": "beta=eta*max(0,1-alpha*R/||y-c||_2); c=mean(history); R=max||history-c||_2; d=0 => beta=0."
+}

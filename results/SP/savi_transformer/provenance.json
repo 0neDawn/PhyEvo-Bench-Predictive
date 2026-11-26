@@ -1,0 +1,291 @@
+{
+  "model": "savi_transformer",
+  "config_id": "S_savi_transformer_output_only_native_e0.9954427_a1.225_4c9f5d3620fd",
+  "parameters": {
+    "eta": 0.9954427,
+    "alpha": 1.225,
+    "q": null,
+    "presence": null,
+    "mass": null,
+    "min_history": null
+  },
+  "mode": "output_only",
+  "origin": "S_explicit_placement_or_eta_radius",
+  "position": null,
+  "eligible_for_selection": true,
+  "eligible_tasks": [
+    "sp",
+    "ie"
+  ],
+  "full600_native_validated": true,
+  "source_row_index": 216,
+  "group": "g0678_savi_transformer",
+  "group_index": 1,
+  "task": "sp",
+  "source_report": "$REPO/predictive_tracks/ppr_buffer_read_20261107_ae/delivery_20261107_001/report.json",
+  "source_report_sha256": "2546e8f27b0a77a46d9760ac5c720bc32949a588cc18de8f4d3e29268e5237e4",
+  "source_row": {
+    "model": "savi_transformer",
+    "mode": "output_only",
+    "eta": 0.9954427,
+    "alpha": 1.225,
+    "quality": null,
+    "target_task": null,
+    "config_id": "S_savi_transformer_output_only_native_e0.9954427_a1.225_4c9f5d3620fd",
+    "proposal": "midpoint refinement around combined parent/new global primary or AUC anchor",
+    "anchor": "savi_transformer_output_only_e0.99348958_a1.225_02e2f89698ff",
+    "parameters": {
+      "eta": 0.9954427,
+      "alpha": 1.225,
+      "q": null,
+      "presence": null,
+      "mass": null,
+      "min_history": null
+    },
+    "metrics": {
+      "sp": {
+        "native_baseline": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.6,
+            "tie_rate": 0.0,
+            "auc": 0.6639777777777778,
+            "detection_coverage": 0.6633333333333333,
+            "localized_and_correct_fraction": 0.6,
+            "localization_mae": 0.10555555555555556,
+            "localization_mae_denominator": 180,
+            "joint_hit": {
+              "1": 0.58
+            }
+          },
+          "by_type": {
+            "identity_change": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.72,
+              "tie_rate": 0.0,
+              "auc": 0.7646,
+              "detection_coverage": 0.75,
+              "localized_and_correct_fraction": 0.72,
+              "localization_mae": 0.1527777777777778,
+              "localization_mae_denominator": 72,
+              "joint_hit": {
+                "1": 0.68
+              }
+            },
+            "occluded_wrong_reappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.36,
+              "tie_rate": 0.0,
+              "auc": 0.3236,
+              "detection_coverage": 0.45,
+              "localized_and_correct_fraction": 0.36,
+              "localization_mae": 0.2222222222222222,
+              "localization_mae_denominator": 36,
+              "joint_hit": {
+                "1": 0.34
+              }
+            },
+            "sudden_disappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.72,
+              "tie_rate": 0.0,
+              "auc": 0.8284,
+              "detection_coverage": 0.79,
+              "localized_and_correct_fraction": 0.72,
+              "localization_mae": 0.0,
+              "localization_mae_denominator": 72,
+              "joint_hit": {
+                "1": 0.72
+              }
+            }
+          }
+        },
+        "corrected": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.61,
+            "tie_rate": 0.0,
+            "auc": 0.6748333333333333,
+            "detection_coverage": 0.67,
+            "localized_and_correct_fraction": 0.61,
+            "localization_mae": 0.08196721311475409,
+            "localization_mae_denominator": 183,
+            "joint_hit": {
+              "1": 0.5933333333333334
+            }
+          },
+          "by_type": {
+            "identity_change": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.74,
+              "tie_rate": 0.0,
+              "auc": 0.7762,
+              "detection_coverage": 0.76,
+              "localized_and_correct_fraction": 0.74,
+              "localization_mae": 0.13513513513513514,
+              "localization_mae_denominator": 74,
+              "joint_hit": {
+                "1": 0.7
+              }
+            },
+            "occluded_wrong_reappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.35,
+              "tie_rate": 0.0,
+              "auc": 0.3191,
+              "detection_coverage": 0.45,
+              "localized_and_correct_fraction": 0.35,
+              "localization_mae": 0.14285714285714285,
+              "localization_mae_denominator": 35,
+              "joint_hit": {
+                "1": 0.34
+              }
+            },
+            "sudden_disappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.74,
+              "tie_rate": 0.0,
+              "auc": 0.846,
+              "detection_coverage": 0.8,
+              "localized_and_correct_fraction": 0.74,
+              "localization_mae": 0.0,
+              "localization_mae_denominator": 74,
+              "joint_hit": {
+                "1": 0.74
+              }
+            }
+          }
+        }
+      },
+      "ie": {
+        "native_baseline": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.36,
+            "tie_rate": 0.0,
+            "auc": 0.3575333333333333,
+            "detection_coverage": 0.5233333333333333,
+            "localized_and_correct_fraction": 0.3566666666666667,
+            "localization_mae": 0.4485981308411215,
+            "localization_mae_denominator": 107,
+            "joint_hit": {
+              "1": 0.31333333333333335
+            }
+          },
+          "by_type": {
+            "motion_anomaly": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.53,
+              "tie_rate": 0.0,
+              "auc": 0.5407,
+              "detection_coverage": 0.66,
+              "localized_and_correct_fraction": 0.53,
+              "localization_mae": 0.49056603773584906,
+              "localization_mae_denominator": 53,
+              "joint_hit": {
+                "1": 0.45
+              }
+            },
+            "penetration": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.39,
+              "tie_rate": 0.0,
+              "auc": 0.4465,
+              "detection_coverage": 0.64,
+              "localized_and_correct_fraction": 0.39,
+              "localization_mae": 0.23076923076923078,
+              "localization_mae_denominator": 39,
+              "joint_hit": {
+                "1": 0.38
+              }
+            },
+            "contact_response": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.16,
+              "tie_rate": 0.0,
+              "auc": 0.1328,
+              "detection_coverage": 0.27,
+              "localized_and_correct_fraction": 0.15,
+              "localization_mae": 0.8666666666666667,
+              "localization_mae_denominator": 15,
+              "joint_hit": {
+                "1": 0.11
+              }
+            }
+          }
+        },
+        "corrected": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.35,
+            "tie_rate": 0.0,
+            "auc": 0.34292222222222224,
+            "detection_coverage": 0.52,
+            "localized_and_correct_fraction": 0.3466666666666667,
+            "localization_mae": 0.4423076923076923,
+            "localization_mae_denominator": 104,
+            "joint_hit": {
+              "1": 0.30666666666666664
+            }
+          },
+          "by_type": {
+            "motion_anomaly": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.53,
+              "tie_rate": 0.0,
+              "auc": 0.5369,
+              "detection_coverage": 0.66,
+              "localized_and_correct_fraction": 0.53,
+              "localization_mae": 0.49056603773584906,
+              "localization_mae_denominator": 53,
+              "joint_hit": {
+                "1": 0.45
+              }
+            },
+            "penetration": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.37,
+              "tie_rate": 0.0,
+              "auc": 0.4101,
+              "detection_coverage": 0.64,
+              "localized_and_correct_fraction": 0.37,
+              "localization_mae": 0.24324324324324326,
+              "localization_mae_denominator": 37,
+              "joint_hit": {
+                "1": 0.36
+              }
+            },
+            "contact_response": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.15,
+              "tie_rate": 0.0,
+              "auc": 0.1303,
+              "detection_coverage": 0.26,
+              "localized_and_correct_fraction": 0.14,
+              "localization_mae": 0.7857142857142857,
+              "localization_mae_denominator": 14,
+              "joint_hit": {
+                "1": 0.11
+              }
+            }
+          }
+        }
+      }
+    },
+    "complete": true,
+    "completed_pairs": 600,
+    "directory": "$REPO/predictive_tracks/ppr_position_refine_20261106_s/runs/savi_transformer/S_savi_transformer_output_only_native_e0.9954427_a1.225_4c9f5d3620fd",
+    "source_directory": "$REPO/predictive_tracks/ppr_position_refine_20261106_s/search_settings/savi_transformer/S_savi_transformer_output_only_native_e0.9954427_a1.225_4c9f5d3620fd",
+    "compact_case_source": "$REPO/predictive_tracks/ppr_position_refine_20261106_s/search/fine/savi_transformer/pairs",
+    "full600_native_validated": true,
+    "partial_graph_parameter_search": true,
+    "eligible_for_selection": true,
+    "eligible_tasks": [
+      "sp",
+      "ie"
+    ],
+    "origin": "S_explicit_placement_or_eta_radius",
+    "diagnostic_only": false
+  },
+  "selection_policy": "Replace old JointHit with new Joint accuracy; retain tie-breaks PairAcc, AUC, lower original conditional MAE, native on exact tie, then configuration ID"
+}

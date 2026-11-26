@@ -1,0 +1,303 @@
+{
+  "model": "slotformer",
+  "config_id": "slotformer_output_only_e0.74088542_a1.2375_75232b6d4579",
+  "parameters": {
+    "eta": 0.74088542,
+    "alpha": 1.2375,
+    "q": null,
+    "presence": null,
+    "mass": null,
+    "min_history": null
+  },
+  "mode": "output_only",
+  "origin": "P_joint_eta_radius",
+  "position": null,
+  "eligible_for_selection": true,
+  "eligible_tasks": [
+    "sp",
+    "ie"
+  ],
+  "full600_native_validated": null,
+  "source_row_index": 270,
+  "group": "g0750_slotformer",
+  "group_index": 5,
+  "task": "ie",
+  "source_report": "$REPO/predictive_tracks/ppr_buffer_read_20261107_ae/delivery_20261107_001/report.json",
+  "source_report_sha256": "2546e8f27b0a77a46d9760ac5c720bc32949a588cc18de8f4d3e29268e5237e4",
+  "source_row": {
+    "model": "slotformer",
+    "mode": "output_only",
+    "eta": 0.74088542,
+    "alpha": 1.2375,
+    "quality": null,
+    "target_task": null,
+    "config_id": "slotformer_output_only_e0.74088542_a1.2375_75232b6d4579",
+    "proposal_task": "ie",
+    "proposal_role": "primary",
+    "proposal_rank": [
+      139,
+      165,
+      89622,
+      -0.5515151515151515
+    ],
+    "proposal_kind": "bounded PCHIP in eta, linear interpolation between measured alpha; actual full600 mandatory",
+    "measured_alpha_bracket": [
+      1.1,
+      1.25
+    ],
+    "measured_eta_ceiling": 1.0,
+    "proposal_only": true,
+    "search_reason": "joint_surrogate_ie_primary",
+    "parameters": {
+      "eta": 0.74088542,
+      "alpha": 1.2375,
+      "q": null,
+      "presence": null,
+      "mass": null,
+      "min_history": null
+    },
+    "metrics": {
+      "sp": {
+        "native_baseline": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.7233333333333334,
+            "tie_rate": 0.0,
+            "auc": 0.8140777777777778,
+            "detection_coverage": 0.8066666666666666,
+            "localized_and_correct_fraction": 0.7233333333333334,
+            "localization_mae": 0.11059907834101383,
+            "localization_mae_denominator": 217,
+            "joint_hit": {
+              "1": 0.6966666666666667
+            }
+          },
+          "by_type": {
+            "identity_change": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.71,
+              "tie_rate": 0.0,
+              "auc": 0.8091,
+              "detection_coverage": 0.78,
+              "localized_and_correct_fraction": 0.71,
+              "localization_mae": 0.056338028169014086,
+              "localization_mae_denominator": 71,
+              "joint_hit": {
+                "1": 0.7
+              }
+            },
+            "occluded_wrong_reappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.48,
+              "tie_rate": 0.0,
+              "auc": 0.4368,
+              "detection_coverage": 0.65,
+              "localized_and_correct_fraction": 0.48,
+              "localization_mae": 0.4166666666666667,
+              "localization_mae_denominator": 48,
+              "joint_hit": {
+                "1": 0.41
+              }
+            },
+            "sudden_disappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.98,
+              "tie_rate": 0.0,
+              "auc": 0.991,
+              "detection_coverage": 0.99,
+              "localized_and_correct_fraction": 0.98,
+              "localization_mae": 0.0,
+              "localization_mae_denominator": 98,
+              "joint_hit": {
+                "1": 0.98
+              }
+            }
+          }
+        },
+        "corrected": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.73,
+            "tie_rate": 0.0,
+            "auc": 0.8253444444444444,
+            "detection_coverage": 0.8033333333333333,
+            "localized_and_correct_fraction": 0.7266666666666667,
+            "localization_mae": 0.10091743119266056,
+            "localization_mae_denominator": 218,
+            "joint_hit": {
+              "1": 0.7033333333333334
+            }
+          },
+          "by_type": {
+            "identity_change": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.74,
+              "tie_rate": 0.0,
+              "auc": 0.856,
+              "detection_coverage": 0.8,
+              "localized_and_correct_fraction": 0.73,
+              "localization_mae": 0.0547945205479452,
+              "localization_mae_denominator": 73,
+              "joint_hit": {
+                "1": 0.72
+              }
+            },
+            "occluded_wrong_reappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.48,
+              "tie_rate": 0.0,
+              "auc": 0.4154,
+              "detection_coverage": 0.62,
+              "localized_and_correct_fraction": 0.48,
+              "localization_mae": 0.375,
+              "localization_mae_denominator": 48,
+              "joint_hit": {
+                "1": 0.42
+              }
+            },
+            "sudden_disappearance": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.97,
+              "tie_rate": 0.0,
+              "auc": 0.9937,
+              "detection_coverage": 0.99,
+              "localized_and_correct_fraction": 0.97,
+              "localization_mae": 0.0,
+              "localization_mae_denominator": 97,
+              "joint_hit": {
+                "1": 0.97
+              }
+            }
+          }
+        }
+      },
+      "ie": {
+        "native_baseline": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.5433333333333333,
+            "tie_rate": 0.0,
+            "auc": 0.5241888888888889,
+            "detection_coverage": 0.6633333333333333,
+            "localized_and_correct_fraction": 0.54,
+            "localization_mae": 0.5617283950617284,
+            "localization_mae_denominator": 162,
+            "joint_hit": {
+              "1": 0.45
+            }
+          },
+          "by_type": {
+            "motion_anomaly": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.68,
+              "tie_rate": 0.0,
+              "auc": 0.7452,
+              "detection_coverage": 0.79,
+              "localized_and_correct_fraction": 0.67,
+              "localization_mae": 0.5970149253731343,
+              "localization_mae_denominator": 67,
+              "joint_hit": {
+                "1": 0.56
+              }
+            },
+            "penetration": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.68,
+              "tie_rate": 0.0,
+              "auc": 0.6814,
+              "detection_coverage": 0.8,
+              "localized_and_correct_fraction": 0.68,
+              "localization_mae": 0.47058823529411764,
+              "localization_mae_denominator": 68,
+              "joint_hit": {
+                "1": 0.58
+              }
+            },
+            "contact_response": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.27,
+              "tie_rate": 0.0,
+              "auc": 0.2155,
+              "detection_coverage": 0.4,
+              "localized_and_correct_fraction": 0.27,
+              "localization_mae": 0.7037037037037037,
+              "localization_mae_denominator": 27,
+              "joint_hit": {
+                "1": 0.21
+              }
+            }
+          }
+        },
+        "corrected": {
+          "overall": {
+            "num_pairs": 300,
+            "paired_accuracy": 0.55,
+            "tie_rate": 0.0,
+            "auc": 0.4979,
+            "detection_coverage": 0.6666666666666666,
+            "localized_and_correct_fraction": 0.55,
+            "localization_mae": 0.5515151515151515,
+            "localization_mae_denominator": 165,
+            "joint_hit": {
+              "1": 0.4633333333333333
+            }
+          },
+          "by_type": {
+            "motion_anomaly": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.71,
+              "tie_rate": 0.0,
+              "auc": 0.7225,
+              "detection_coverage": 0.8,
+              "localized_and_correct_fraction": 0.71,
+              "localization_mae": 0.6619718309859155,
+              "localization_mae_denominator": 71,
+              "joint_hit": {
+                "1": 0.58
+              }
+            },
+            "penetration": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.66,
+              "tie_rate": 0.0,
+              "auc": 0.6468,
+              "detection_coverage": 0.8,
+              "localized_and_correct_fraction": 0.66,
+              "localization_mae": 0.36363636363636365,
+              "localization_mae_denominator": 66,
+              "joint_hit": {
+                "1": 0.59
+              }
+            },
+            "contact_response": {
+              "num_pairs": 100,
+              "paired_accuracy": 0.28,
+              "tie_rate": 0.0,
+              "auc": 0.2028,
+              "detection_coverage": 0.4,
+              "localized_and_correct_fraction": 0.28,
+              "localization_mae": 0.7142857142857143,
+              "localization_mae_denominator": 28,
+              "joint_hit": {
+                "1": 0.22
+              }
+            }
+          }
+        }
+      }
+    },
+    "complete": true,
+    "completed_pairs": 600,
+    "directory": "$REPO/predictive_tracks/ppr_joint_fine_20261105_p/runs/slotformer/slotformer_output_only_e0.74088542_a1.2375_75232b6d4579",
+    "source_directory": "$REPO/predictive_tracks/ppr_joint_fine_20261105_p/runs/slotformer/slotformer_output_only_e0.74088542_a1.2375_75232b6d4579",
+    "compact_case_source": "$REPO/predictive_tracks/ppr_joint_fine_20261105_p/cache/slotformer/pairs",
+    "summary_sha256": "f9dc4452671dd56e63be4ce15010b60ed5ff5af087be2eb4b3ee49ddbb590d46",
+    "origin": "P_joint_eta_radius",
+    "eligible_for_selection": true,
+    "eligible_tasks": [
+      "sp",
+      "ie"
+    ]
+  },
+  "selection_policy": "Previously reported best setting held fixed"
+}
