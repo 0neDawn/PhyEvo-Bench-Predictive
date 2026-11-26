@@ -1,9 +1,5 @@
-*.py text eol=lf
-*.sh text eol=lf
-*.md text eol=lf
-*.json text eol=lf
-*.jsonl text eol=lf
-*.csv text eol=lf
+# Preserve archived file bytes on every platform: audit hashes include line endings.
+* -text
 *.npz binary
 *.gz binary
 *.png binary
